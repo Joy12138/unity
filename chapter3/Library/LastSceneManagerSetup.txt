@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/chapter40721.unity
+  isLoaded: 1
+  isActive: 1
