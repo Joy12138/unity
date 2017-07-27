@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>aCute: C# edition in Eclipse IDE (experimental)</title>
+    <link>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide-experimental</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/csharp_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-01-26 10:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%20Developers%22&quot;&gt;Red Hat Developers&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;aCute enables C# application development in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;It provides a rich editor with error reporting, hover, content assist, jump to references... (using OmniSharp) and syntax highlighting (using TextMate grammar).&lt;br /&gt;
+	It also integrates various operations of the `dotnet` command-line (New, Run, Test, Publish) as typical Eclipse IDE wizards and workflows.&lt;/p&gt;
+&lt;p&gt;aCute is in the process of becoming an Eclipse.org project: &lt;a href=&quot;https://projects.eclipse.org/proposals/eclipse-acute-c-and-.net-core-development-tools-eclipse-ide&quot; rel=&quot;nofollow&quot;&gt;https://projects.eclipse.org/proposals/eclipse-acute-c-and-.net-core-dev...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 26 Jan 2017 15:22:41 +0000</pubDate>
+ <dc:creator>mistria</dc:creator>
+ <guid isPermaLink="false">3269902 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide-experimental#comments</comments>
+  </item>
+  <item>
+    <title>ImageJ Plugin</title>
+    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
+&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
+&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
+&lt;p&gt;For more information visit:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Fixed a bug to control dialogs&lt;/li&gt;
+&lt;li&gt;
+		Fixed a Linux code templates bug&lt;/li&gt;
+&lt;li&gt;
+		Added more code completion templates&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
+&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
+&lt;p&gt;The editor has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
+&lt;li&gt;
+		    Toolbar action to execute ImageJ macros&lt;/li&gt;
+&lt;li&gt;
+		    Syntax highlightening&lt;/li&gt;
+&lt;li&gt;
+		    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
+&lt;li&gt;
+		    Code completion (with browser help)&lt;/li&gt;
+&lt;li&gt;
+		    Code templates (add you own templates)&lt;/li&gt;
+&lt;li&gt;
+		    Info popups (text hoover)&lt;/li&gt;
+&lt;li&gt;
+		    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
+&lt;li&gt;
+		    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
+&lt;li&gt;
+		    Code folding&lt;/li&gt;
+&lt;li&gt;
+		    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
+&lt;li&gt;
+		    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
+&lt;li&gt;
+		    Font preferences&lt;/li&gt;
+&lt;li&gt;
+		    Mark occurences (scope independant)&lt;/li&gt;
+&lt;li&gt;
+		    A copy function for this forum&lt;br /&gt;
+		 &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
+&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
+&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
+&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
+ <dc:creator>mmisingnameaoh</dc:creator>
+ <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
+  </item>
+  <item>
+    <title>SAP Hybris Commerce Development Tools for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/saphybris-logo.png&quot; width=&quot;110&quot; height=&quot;31&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 15:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SAP%20Hybris%22&quot;&gt;SAP Hybris&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/bdobbs6r0/listings&quot; title=&quot;Brendan Dobbs&quot;&gt;Brendan Dobbs&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Development toolkit for developing with SAP Hybris Commerce. This plugin is open source and also sponsored by SAP.&lt;/p&gt;
+&lt;p&gt;Features include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Import platform into workspace&lt;/li&gt;
+&lt;li&gt;
+		Synchronize extensions with the Hybris Commerce Suite platform including synchronizing libraries and classpaths managed in the platform&lt;/li&gt;
+&lt;li&gt;
+		Configure the runtime JVM with optimal settings to run JUnit tests&lt;/li&gt;
+&lt;li&gt;
+		Add the JDBC driver to the classpath (required to be able to run JUnit tests)&lt;/li&gt;
+&lt;li&gt;
+		Actions to build the platform, ensuring projects are refreshed after the platform has generated files&lt;/li&gt;
+&lt;li&gt;
+		Impex editor with type ahead and formatting functionality&lt;/li&gt;
+&lt;li&gt;
+		Create working sets from localextensions.xml&lt;/li&gt;
+&lt;li&gt;
+		Disable unnecessary extension modules&lt;/li&gt;
+&lt;li&gt;
+		Classpath resolution for JUnit integration tests&lt;/li&gt;
+&lt;li&gt;
+		ImpEx importer&lt;/li&gt;
+&lt;li&gt;
+		Optimization of Tomcat startup time&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 25 Jul 2017 19:04:22 +0000</pubDate>
+ <dc:creator>bdobbs6r0</dc:creator>
+ <guid isPermaLink="false">3565771 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>DBeaver</title>
+    <link>http://marketplace.eclipse.org/content/dbeaver</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/dbeaver_head_new.png&quot; width=&quot;73&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 03:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jkiss%22&quot;&gt;Jkiss&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators. It can work with any database server which has JDBC driver. It supports pluggable extensions. Version 3.x has special extensions for: MySQL, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Exasol, Informix, Teradata, Vertica, Netezza, Phoenix, Firebird, Derby, H2, WMI, Cassandra, MongoDB, Redis. Features: Database metadata browser, metadata editor (tables, columns, keys, indexes), SQL statements/scripts execution, SQL highlighting, autocompletion, hyperlinks in SQL editor, Result set/table view/edit/search, BLOB/CLOB view/edit support, scrollable resultsets, data (tables, query results) export and import, transactions management, database search, ER diagrams, automatic drivers download, etc. Standalone version download available on &lt;a href=&quot;http://dbeaver.jkiss.org/download/&quot; rel=&quot;nofollow&quot;&gt;http://dbeaver.jkiss.org/download/&lt;/a&gt; Source code: &lt;a href=&quot;https://github.com/serge-rider/dbeaver&quot; rel=&quot;nofollow&quot;&gt;https://github.com/serge-rider/dbeaver&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 04 Nov 2012 16:30:36 +0000</pubDate>
+ <dc:creator>sriderdp1</dc:creator>
+ <guid isPermaLink="false">507775 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/dbeaver#comments</comments>
+  </item>
+  <item>
+    <title>Jigloo SWT/Swing GUI Builder</title>
+    <link>http://marketplace.eclipse.org/content/jigloo-swtswing-gui-builder</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2004-02-26 15:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 16:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CloudGarden%22&quot;&gt;CloudGarden&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jmisingname7cn/listings&quot; title=&quot;jonathan@cloudgarden.com Mising name&quot;&gt;jonathan@cloudgarden.com Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Jigloo Version: 4.6.8 Eclipse versions supported: 3.0 to 4.7 Cloudgarden&#039;s Jigloo GUI Builder creates and manages code for all the parts of Swing or SWT GUIs as well as code to handle events, and shows you the GUIs as they are being built. Jigloo parses java class files to construct the form that you use when designing your GUI (round-tripping), so it can work on classes that were generated by other GUI builders or IDEs, or hand-coded classes. It can also convert from a Swing GUI to a SWT GUI and vice-versa. Also, the SWT_AWT class is supported so that SWT controls can be embedded inside Swing components, and vice-versa. Jigloo is straightforward, fast, powerful, easy to use and fully integrated with Eclipse. It can lead to substantial time-savings for GUI development and maintainance tasks.&lt;br /&gt;
+	Jigloo is very fast at parsing the java code and constructing the GUI form. It&#039;s advanced parsing capabilities enable it to render even complex hand-generated code correctly, and it allows quick and intuitive navigation between GUI elements in the form and their associated code, allowing quick manual modifications to specific parts of the code.&lt;br /&gt;
+	Jigloo is highly-customizable: the parts of your code which Jigloo will parse can be restricted, and the classes which are instantiated when Jigloo parses your code and constructs the Form editor can be specified using patterns. The code generated by Jigloo can also be customized, and existing code can be re-arranged to follow the preferred style (eg, using getters for GUI elements, or separating elements by blank lines, braces or tagged comments).&lt;br /&gt;
+	Custom classes can be added to forms, and JavaBeans with Customizers and custom properties are supported. In addition, Jigloo supports visual inheritance - it can design classes which extend other custom classes, which may be public, abstract or non-public. Navigation between code and form editors is very easy - with Jigloo highlighting the relevant section of code when the form editor has focus, or the relevant form element when the code editor has focus. Components are added, layouts changed etc, by selecting from a palette, or by options in the right-click context menus. They can be resized and dragged about in the form editor and in the outline view, and their properties, layout constraints and event handlers can be changed easily in a properties editor. Multi-selection of components makes widespread changes easy to perform. Class-changing (eg, from a Composite to a Group, a combo-box to a text field, or to any custom class) can also save design time. The GUI can be &quot;previewed&quot; or run using editor actions. Jigloo version 4 has many new features, including support for the Swing Application Framework (JSR 296), improved support for the Swing GroupLayout (as used by Netbeans Matisse), multiple root elements and &quot;Surround by&quot; actions. Platforms: Windows, Linux (gtk) and Mac OSX. JDK: 1.3, 1.4, 5 or 6 Basic Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Builds complete Java classes for GUIs in SWT or Swing with an easy-to-use WYSIWYG editor.&lt;/li&gt;
+&lt;li&gt;
+		Two-way (or round-trip) java code editing - changes made in the Form Editor are reflected in the code, and changes made to the code are also reflected in the Form Editor.&lt;/li&gt;
+&lt;li&gt;
+		Can recognize and manipulate code generated by hand or by IDE (eg, Netbeans, JBuilder, VEP etc).&lt;/li&gt;
+&lt;li&gt;
+		Excellent parsing capabilities allow complex hand-generated code to be rendered correctly.&lt;/li&gt;
+&lt;li&gt;
+		Supports visual inheritance - can be used to edit classes which extend other custom visual classes.&lt;/li&gt;
+&lt;li&gt;
+		Converts between Swing and SWT GUIs (both ways).&lt;/li&gt;
+&lt;li&gt;
+		Palette for adding components and setting layouts.&lt;/li&gt;
+&lt;li&gt;
+		Easy navigation between source and form editors, with the selection in the form editor following the location of the cursor in the source editor, and the source editor scrolling to the code relevant to the selected element in the form editor.&lt;/li&gt;
+&lt;li&gt;
+		Multi-selection of components - for setting of properties, layout parameters, and copy/cut/paste/delete.&lt;/li&gt;
+&lt;li&gt;
+		Context-menu options for adding components and setting layouts (use of palette and/or context menu controlled by preferences page).&lt;/li&gt;
+&lt;li&gt;
+		Manipulates most properties of the GUI components, such as colors, fonts, images, sizes, borders etc,&lt;/li&gt;
+&lt;li&gt;
+		Creates event handlers for any and all of the component&#039;s events.&lt;/li&gt;
+&lt;li&gt;
+		When creating components, initial text, image and layout properties can be quickly set using a single creation dialog.&lt;/li&gt;
+&lt;li&gt;
+		Basic editing commands, copy/cut/paste/delete, as well as &quot;Move up/down&quot;, to rearrange components.&lt;/li&gt;
+&lt;li&gt;
+		Infinite Undo/Redo capability for all actions (setting of properties, layouts, layout constraints, cut, paste, add, delete and move).&lt;/li&gt;
+&lt;li&gt;
+		The GUI editor and Outline view can be used to drag/copy-and-drop components inside and between containers.&lt;/li&gt;
+&lt;li&gt;
+		Java code and GUI form viewed in single editor - either a split-pane (horizontal or vertical) or tabbed-pane layout is selectable.&lt;/li&gt;
+&lt;li&gt;
+		Generates stub models for certain elements (eg, JTable, JSpinner, JList etc), and can parse models from code.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Code Handling:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		There are many ways to customize the parsing of the Java code.
+&lt;ul&gt;&lt;li&gt;
+				Blocks of code which are not directly involved in building the GUI can be hidden from Jigloo by user-customizable comment tags.&lt;/li&gt;
+&lt;li&gt;
+				The classes which Jigloo will instantiate while parsing the code can be controlled oï¿½n a fine-grain level.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;
+		The code generated by Jigloo can also be customized:
+&lt;ul&gt;&lt;li&gt;
+				It can follow the convention of the existing code (eg, JBuilder code uses getter methods to initialize it&#039;s components, and Jigloo can detect and use this format) or force it&#039;s own convention.&lt;/li&gt;
+&lt;li&gt;
+				It can separate elements with braces, blank lines, or user-defined comments.&lt;/li&gt;
+&lt;li&gt;
+				It can apply the current convention to an existing java class (eg, if the class uses getters you can convert it to using blocks)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Layout:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Handles all Swing and SWT layouts (including GridBagLayout, JGoodies FormLayout, Clearthought&#039;s TableLayout, SWT FormLayout and absolute layouts).&lt;/li&gt;
+&lt;li&gt;
+		Delphi/Visual Studio layout-manager mode for SWT FormLayout (and Swing AnchorLayout).&lt;/li&gt;
+&lt;li&gt;
+		Intuitive methods for changing the grid properties of GridBagLayouts, JGoodies FormLayout, TableLayout (eg, adding, moving, deleting columns/rows etc) and components inside those layouts.&lt;/li&gt;
+&lt;li&gt;
+		Snap grid allows components to be located and resized to a uniform 5 to 20 pixel grid.&lt;/li&gt;
+&lt;li&gt;
+		Components can be drag-and-dropped (and copy-and-dropped) between containers, re-ordered and resized by mouse-dragging.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Advanced:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Visual Inheritance is supported - Jigloo can be used to build classes which are extensions of other visual classes.&lt;/li&gt;
+&lt;li&gt;
+		Custom classes extending Component (Swing) or Control (SWT) can be added to the GUI.&lt;/li&gt;
+&lt;li&gt;
+		SWT_AWT methods supported, so that SWT controls can be inserted into Swing components, Swing components can be inserted into SWT controls.&lt;/li&gt;
+&lt;li&gt;
+		Non-visual classes can also be added to the GUI, and their properties edited with the property editor.&lt;/li&gt;
+&lt;li&gt;
+		The class of a GUI element can be changed (eg, changing a Composite to a Group, or to a custom class) with a context-menu option.&lt;/li&gt;
+&lt;li&gt;
+		Parts of a GUI class can be extracted and saved as a new class.&lt;/li&gt;
+&lt;li&gt;
+		Easy access to the Javadoc for Swing and SWT components and layouts&lt;/li&gt;
+&lt;li&gt;
+		Ability to preview or run the generated java code from a toolbar button.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 26 Feb 2004 20:42:16 +0000</pubDate>
+ <dc:creator>jmisingname7cn</dc:creator>
+ <guid isPermaLink="false">74 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jigloo-swtswing-gui-builder#comments</comments>
+  </item>
+  <item>
+    <title>VisualCode</title>
+    <link>http://marketplace.eclipse.org/content/visualcode</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/vcode11_08jul.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-12 13:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 13:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tadamsp8q/listings&quot; title=&quot;Toivo Adams&quot;&gt;Toivo Adams&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;VisualCode is a developer tool which help to visually compose java code.&lt;br /&gt;
+	Tool converts Java methods to visual blocks which can have multiple input and multiple output ports.&lt;br /&gt;
+	Using Visual Flow editor you connect blocks output and input ports.&lt;br /&gt;
+	Resulting visual flow will be converted to executable Java method.&lt;br /&gt;
+	Resulting method is like any other java method and can be called from ordinary java code.&lt;/p&gt;
+&lt;p&gt;Java 8 is minimum version.&lt;/p&gt;
+&lt;p&gt;To allow input ports have names from method argument names you must set:&lt;/p&gt;
+&lt;p&gt;* Store information about method parameters (usable via reflection)&lt;/p&gt;
+&lt;p&gt;or in your maven pom.xml file:&lt;/p&gt;
+&lt;p&gt;&amp;lt;properties&amp;gt;&lt;br /&gt;
+	  &amp;lt;maven.compiler.source&amp;gt;1.8&amp;lt;/maven.compiler.source&amp;gt;&lt;br /&gt;
+	  &amp;lt;maven.compiler.target&amp;gt;1.8&amp;lt;/maven.compiler.target&amp;gt;&lt;br /&gt;
+	  &amp;lt;compilerArgument&amp;gt;-parameters&amp;lt;/compilerArgument&amp;gt;&lt;br /&gt;
+	  &amp;lt;testCompilerArgument&amp;gt;-parameters&amp;lt;/testCompilerArgument&amp;gt;&lt;br /&gt;
+	&amp;lt;/properties&amp;gt;&lt;/p&gt;
+&lt;p&gt;VisualCode uses JavaFX and for this reason you must add following line to your eclipse.ini file.&lt;br /&gt;
+	-Dorg.osgi.framework.bundle.parent=ext&lt;/p&gt;
+&lt;p&gt;So your eclipse.ini file tail should look something like this:&lt;br /&gt;
+	...&lt;br /&gt;
+	-vmargs&lt;br /&gt;
+	-Dosgi.requiredJavaVersion=1.8&lt;br /&gt;
+	-Dorg.osgi.framework.bundle.parent=ext&lt;br /&gt;
+	-XX:+UseG1GC&lt;br /&gt;
+	-XX:+UseStringDeduplication&lt;br /&gt;
+	-Xms256m&lt;br /&gt;
+	-Xmx1024m&lt;/p&gt;
+&lt;p&gt;VisualCode is under development and currently in alpha phase.&lt;br /&gt;
+	So please be patient and forgive possible problems.&lt;/p&gt;
+&lt;p&gt;more information, please visit&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ToivoAdams/VisualCode_Site&quot; rel=&quot;nofollow&quot;&gt;https://github.com/ToivoAdams/VisualCode_Site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 12 Jul 2017 17:32:32 +0000</pubDate>
+ <dc:creator>tadamsp8q</dc:creator>
+ <guid isPermaLink="false">3542013 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/visualcode#comments</comments>
+  </item>
+  <item>
+    <title>QMetry Automation Studio</title>
+    <link>http://marketplace.eclipse.org/content/qmetry-automation-studio</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/QAS-128.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-06-15 02:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 10:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Infostretch%20Corporation%22&quot;&gt;Infostretch Corporation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sshah7dn/listings&quot; title=&quot;Qmetry Automation Studio&quot;&gt;Qmetry Automation Studio&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;QMetry Automation Studio (QAS) is a test automation tool that provides a single, unified solution for web, mobile (including native and web app) and web services testing.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 15 Jun 2017 06:29:16 +0000</pubDate>
+ <dc:creator>sshah7dn</dc:creator>
+ <guid isPermaLink="false">3495285 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/qmetry-automation-studio#comments</comments>
+  </item>
+  <item>
+    <title>Kermeta 3</title>
+    <link>http://marketplace.eclipse.org/content/kermeta-3</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_40.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 05:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 10:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Inria%22&quot;&gt;Inria&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dvojtisek/listings&quot; title=&quot;Didier Vojtisek&quot;&gt;Didier Vojtisek&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;K3 (Kermeta 3) is an action language build on top of the Xtend programming language in order to use it for executable metamodeling.&lt;/p&gt;
+&lt;p&gt;Its key feature allows to &quot;re-open&quot; classes of an Ecore metamodel and to weave new features or operations in these classes.&lt;/p&gt;
+&lt;p&gt;The combinaison of K3 and Xtend allows to address a wide range of activities related to model element manipulation. This includes activites such as:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    weaving operational semantics in metamodel definition&lt;/li&gt;
+&lt;li&gt;
+		    defining model to model transformations&lt;/li&gt;
+&lt;li&gt;
+		    defining model to text transformations&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 25 Jul 2017 09:50:31 +0000</pubDate>
+ <dc:creator>dvojtisek</dc:creator>
+ <guid isPermaLink="false">3564803 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/kermeta-3#comments</comments>
+  </item>
+  <item>
+    <title>Melange</title>
+    <link>http://marketplace.eclipse.org/content/melange</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/melange-logo.svg_.png&quot; width=&quot;78&quot; height=&quot;79&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 08:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 08:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Inria%22&quot;&gt;Inria&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/dvojtisek/listings&quot; title=&quot;Didier Vojtisek&quot;&gt;Didier Vojtisek&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Melange is a language workbench that provides a modular approach for customizing, assembling and integrating multiple domain-specific language (DSL) specifications and implementations. It helps to manage variability within language specifications (syntactic and semantic variation points), and reuse pieces of syntax and semantics from one DSL to the other.&lt;/p&gt;
+&lt;p&gt;The language workbench embeds a model-oriented type system that provides model polymorphism and language substitutability, i.e. the possibility to manipulate a model through different interfaces and to define generic transformations that can be invoked on models written using different DSLs. Melange also provides a dedicated meta-language where models are first-class citizens and languages are used to instantiate and manipulate them. By analogy with the class-based, object-oriented paradigm, Melange can be classified as a language-based, model-oriented language.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 25 Jul 2017 12:16:13 +0000</pubDate>
+ <dc:creator>dvojtisek</dc:creator>
+ <guid isPermaLink="false">3565124 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/melange#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>http://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 06:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin is just a bash script editor.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;
+		Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;
+		Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;
+		Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;
+		Small (66 kb)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  </channel>
+</rss>
