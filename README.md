@@ -15,6 +15,7 @@ b.tcp建立了但是消息未能发送
 端口未被打开－－－因为监听没有成功
 我们少了一条语句－－－server阻塞等待链路结束  client wait until the connection is closed
 bossChannel.closeFuture().sync();
+阻塞到tcp链路close，不然方法执行完，有可能信息还没有发
 
 2018年7月28日
 step:client一个线程成功与server一个线程通信
