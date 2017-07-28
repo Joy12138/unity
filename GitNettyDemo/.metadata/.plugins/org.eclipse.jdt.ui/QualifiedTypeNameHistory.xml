@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.netty.bootstrap.ServerBootstrap"/>
+<fullyQualifiedTypeName name="io.netty.channel.socket.nio.NioServerSocketChannel"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelPipeline"/>
+<fullyQualifiedTypeName name="com.warm.game.network.TimeServerHandler"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="io.netty.channel.EventLoopGroup"/>
+<fullyQualifiedTypeName name="io.netty.channel.nio.NioEventLoopGroup"/>
+<fullyQualifiedTypeName name="io.netty.bootstrap.Bootstrap"/>
+<fullyQualifiedTypeName name="io.netty.channel.socket.nio.NioSocketChannel"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelInitializer"/>
+<fullyQualifiedTypeName name="io.netty.channel.socket.SocketChannel"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelHandlerAdapter"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelHandlerContext"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="io.netty.buffer.ByteBuf"/>
+<fullyQualifiedTypeName name="io.netty.buffer.Unpooled"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelOption"/>
+<fullyQualifiedTypeName name="io.netty.channel.Channel"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelFutureListener"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.UserMsg.Builder"/>
+<fullyQualifiedTypeName name="com.warm.game.user.UserMessageBuilder"/>
+<fullyQualifiedTypeName name="com.warm.game.user.entity.User"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.UserMsg"/>
+<fullyQualifiedTypeName name="io.netty.channel.ChannelFuture"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufEncoder"/>
+</qualifiedTypeNameHistroy>

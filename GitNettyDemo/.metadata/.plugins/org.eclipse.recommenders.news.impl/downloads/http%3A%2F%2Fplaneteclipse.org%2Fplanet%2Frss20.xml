@@ -1,0 +1,691 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Doug Schaefer: Taking the Long Way ‘Round</title>
+	<guid isPermaLink="false">https://cdtdoug.ca/?p=855</guid>
+	<link>https://cdtdoug.ca/2017/07/27/taking-the-long-way-round/</link>
+	<description>&lt;p&gt;Remember &lt;a href=&quot;https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide/&quot;&gt;Eclipse Two&lt;/a&gt;? Yeah, that was a lot of fun. Not sure anyone cares what happened to it. It made quite a splash back at the beginning of the year which proved to me that there is interest in a new tools platform for the desktop. Well, it’s been an interesting journey since then and I thought I’d give you an update.&lt;/p&gt;
+&lt;p&gt;First, I do firmly believe that Electron as a combination of Chromium for UI and node.js at the core will be a great tooling platform for the future, if not sooner than that. You look back when Eclipse started, and I think Mike mentioned this in a recent article, Java was the cool new kid on the block. Everyone wanted to learn it and use it and with SWT, it finally became performant and good looking enough to build the next great IDE platform that we have today.&lt;/p&gt;
+&lt;p&gt;You look around today, and ask that same question. What is the cool kid on the block that everyone wants to learn and work with? Well, I think it’s obviously HTML5. There’s no doubt there’s lots of hype to it. And with hardware accelerated rendering in Chromium and the native look and feel you can get with Electron, I think it’s ready to be the next next gen.&lt;/p&gt;
+&lt;p&gt;But a funny thing happened along the way. We released our latest QNX Software Development Platform with the culmination of all the work we’ve done the last few years with our Eclipse-based IDE Momentics. And our customers like it. They like it a lot. CDT is still the best C/C++ IDE in the industry and the user experience improvements we and the rest of the Eclipse community have delivered is paying off for us and them.&lt;/p&gt;
+&lt;p&gt;As much as I’m interested in seeing the next generation IDE platform, it has to be as good or better than what we have today. And personally, I think we’re a long way from that. Knowing how much work that has gone into the CDT to have it’s great static analysis engine and it’s clean debugger integrations and the clean up of launch workflows that we’ve achieved with the Launch Bar, you would need a very strong community to duplicate that. And you would need community leadership to bring all the different interested parties together to work towards a common goal. I struggle to see how that comes together and I look forward to discussing with fellow CDT’ers at EclipseCon Europe to understand where their visions lead.&lt;/p&gt;
+&lt;p&gt;For now, along with working on improvements to Momentics and CDT, I am continuing to work with Electron on some other tooling ideas. I think we have something cool in the works for system tracing, an area that a lot of us embedded systems vendors have struggled with in Eclipse and SWT. A lot of custom code has been written to make our System Profiler and Eclipse’s Trace Compass look good and navigate well. That could be an area where we could grow a community.&lt;/p&gt;
+&lt;p&gt;It will take us a long time before we know where to go next and I’m convinced that’s a good thing. If anything my work on Electron-based tooling has taught me is that we have a lot to learn with these new technologies. They are so new and constantly changing. It’s tough to build an IDE platform for the next twenty years when JavaScript frameworks come and go every couple. But the good news is that we have time. Eclipse is still going strong and giving our customers the great user experiences and the productivity improvements we promised them. We can afford to be choosy on the next one that will give them the same.&lt;/p&gt;</description>
+	<pubDate>Thu, 27 Jul 2017 18:42:05 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Damus: Mixed-Mode Compare/Merge, Part I</title>
+	<guid isPermaLink="false">51e06026e4b0732384e5134c:51e06fcee4b071d0afcc6a28:5979073529687ff7ed6dd09f</guid>
+	<link>https://damus.ca/blog/2017/7/26/mixed-mode-comparemerge-part-i</link>
+	<description>&lt;p&gt;As not all models that &lt;a href=&quot;http://www.eclipse.org/emf/compare/&quot;&gt;EMF Compare&lt;/a&gt; operates on will be described in terms of a façade, it is equally to be expected that some models will only partially comprise domain-specific content that can be described by a façade.  So, models will often present a mix of content in various languages, some of which have façades and some which don't:  imagine a UML design model that mixes &quot;pure UML&quot; content that describes the structure and behaviour of a system in very abstract terms, linked to refinements of various components in their own DSLs.&lt;/p&gt;
+
+&lt;p&gt;The video above demonstrates the first step towards support for mixed-mode comparison and merge, in which a model merge is performed in UML terms for abstract design content and a domain-specific façade for more lower-level design content pertaining to a particular technology.  As &lt;a href=&quot;https://damus.ca/blog/2017/7/25/welcome-to-compare-land&quot;&gt;before&lt;/a&gt;, check out the prototype on &lt;a href=&quot;https://github.com/cdamus/emf.compare/tree/uml-facade&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;&lt;h2&gt;Update&lt;/h2&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;em&gt;Updated 10.25, 27 July 2017&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the first demonstration video, a problem cropped up in which pseudo-conflicts were detected on erroneous matching of new elements added on the left and the right sides.  The consequence was that a correct and complete merge would not be possible.  The brief update video, above, shows how this problem can be resolved in the façade model simply by providing unique identifiers for every object to help the matching process.&lt;/p&gt;</description>
+	<pubDate>Wed, 26 Jul 2017 22:13:17 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Forms 1.13.0 Feature: Export to JSON Forms</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=35071</guid>
+	<link>https://eclipsesource.com/blogs/2017/07/26/emf-forms-1-13-0-feature-export-to-json-forms/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;With Oxygen, we released EMF Forms 1.13.0.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please note, that we published an update 1.13.1 fixing a critical bug (see &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519415&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;BR519415&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=518503&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;BR518503&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;) in the &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/tutorials/emf-forms-editors/#ecoreeditor&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms Ecore editor&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. So in case you are using this editor, please make sure to get the latest version 1.13.1 from our &lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/ecp/emfforms/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;download page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/ecp/emfforms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; makes it simple to create forms which edit your data based on an EMF model. To get started with EMF Forms please refer to &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/getting-started-with-EMF-Forms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;our tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. In this post, we want to outline a new feature in the 1.13.0 release: The export capability to JSON Forms.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you follow our blog, you might have noticed, that we are working on a new renderer for EMF Forms called JSON Forms. JSON Forms is based on a pure web stack and applies the same concepts as EMF Forms. Please see &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2016/12/21/json-forms-make-it-happen-blog-series-pilot/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this blog series&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for more details about JSON Forms.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As JSON Forms leaves the pure Java world, we need alternatives for EMF. This affects the data model as well as the view model. As the name implies, JSON Forms uses JSON Schema/JSON for both artefacts. In JSON Forms we call these artefacts “Data Schema” (former data model) and “UI Schema” (former view model).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The good news is that we provide a converter, so if you have existing EMF data models or view models, you can simply transfer them to JSON so that you can easily use JSON Forms. Since Oxygen and EMF Forms 1.13.0, this converter is part of every Eclipse Modeling tools edition.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Let’s assume you have a data model and a corresponding view model. The following two screenshots show these two artefacts of a simple example entity “User” with two attributes:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Data Model:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-35072&quot; height=&quot;68&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image5-1.png&quot; width=&quot;190&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;View Model:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-35073&quot; height=&quot;96&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image16.png&quot; width=&quot;214&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To convert this to JSON Forms, just right click the view model and select “EMF Forms” =&amp;gt; “Export to JSON Forms”. This will open a wizard allowing you to convert both artefacts into JSON. Please see &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/tutorials/emf-forms-and-json-forms-integration-guide/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this integration guide&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for more details.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The transformation is pretty straight forward. The data model will be converted to a JSON Schema. As you can see in the following listing, it converts information such as the type or the literals of an enum:&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;{
+  &quot;type&quot;: &quot;object&quot;,
+  &quot;properties&quot;: {
+    &quot;firstName&quot;: {
+      &quot;type&quot;: &quot;string&quot;
+    },
+    &quot;gender&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;enum&quot;: [
+        &quot;Male&quot;,
+        &quot;Female&quot;
+      ]
+    }
+}
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The view model will be converted into a JSON, which describes the UI. Again it keeps the information of the view model, e.g. the hierarchy using a “Group”. As you can see in the following listing, it also references the data model to describe which attributes shall be shown in the form-based UI. Therefore, JSON Forms works conceptually exactly the same way the EMF Forms works:&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;{
+  &quot;type&quot;: &quot;VerticalLayout&quot;,
+  &quot;elements&quot;: [
+      {
+        &quot;type&quot;: &quot;Group&quot;,
+        &quot;label&quot;: &quot;MyGroup&quot;,
+        &quot;elements&quot;: [
+          {
+            &quot;type&quot;: &quot;Control&quot;,
+            &quot;label&quot;: &quot;First Name&quot;,
+            &quot;scope&quot;: {
+              &quot;$ref&quot;: &quot;#/properties/firstName&quot;
+            }
+          },
+          {
+            &quot;type&quot;: &quot;Control&quot;,
+            &quot;label&quot;: &quot;Gender&quot;,
+            &quot;scope&quot;: {
+             &quot;$ref&quot;: &quot;#/properties/gender&quot;
+            }
+          }
+          ]
+         
+        }
+    ]
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Just by exporting these two artefacts, which is basically one click, you can use JSON Forms to render the form like EMF Forms, but as a native web application. No further coding is required for this. The example form would look like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-35074&quot; height=&quot;244&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image13-1.png&quot; width=&quot;289&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are using EMF Forms and are interested in trying out the new renderer, please refer to &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/tutorials/emf-forms-and-json-forms-integration-guide/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. If you want to learn more about JSON Forms in general, we recommend &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2016/12/21/json-forms-make-it-happen-blog-series-pilot/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this blog series&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 26 Jul 2017 13:42:54 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Damus: Welcome to Compare-Land</title>
+	<guid isPermaLink="false">51e06026e4b0732384e5134c:51e06fcee4b071d0afcc6a28:5977ab7be45a7c0d24a6f263</guid>
+	<link>https://damus.ca/blog/2017/7/25/welcome-to-compare-land</link>
+	<description>&lt;p&gt;Yes, it has been a while since I last blogged, and that was before a long run of work on the &lt;a href=&quot;http://www.eclipse.org/papyrus-rt/&quot;&gt;Papyrus-RT project&lt;/a&gt; which just this month reached the all-important &lt;a href=&quot;https://papyrusuml.wordpress.com/2017/07/21/papyrus-for-real-time-is-born/&quot;&gt;1.0 release&lt;/a&gt;.  Now I have changed tack slightly, still working on Eclipse open-source projects, but with a focus on the &lt;a href=&quot;https://www.eclipse.org/emf/compare/&quot;&gt;EMF Compare&lt;/a&gt;.  At least, for now.&lt;/p&gt;
+&lt;p&gt;I am diving head-first into this project with some prototyping/experimentation in the use of &lt;em&gt;Façade Models&lt;/em&gt; for customization and stream-lining of the user experience of compare/merge in complex modeling languages such as UML, especially when profiled for DSMLs (domain-specific modeling languages).&lt;/p&gt;
+
+&lt;p&gt;The embedded video is a demonstration, longer than is usual for these videos of mine, of the first prototype of pluggable &lt;em&gt;Façade Providers&lt;/em&gt; in the &lt;strong&gt;EMF Compare&lt;/strong&gt; framework.  The framework consults the available façade providers to obtain instances of a façade model representing the input models to be compared.  The idea is that the façade can more concisely and, in some ways, usefully encode the semantics of the domain-specific language that are significant to the efficient and correct comparison and merging of those models.  Indeed, even the very simple example presented in the video shows how domain-specific constraints are easily represented in the façade that enable detection of merge conflicts that are much more cumbersome to implement &quot;by hand&quot; in the EMF Compare framework.&lt;/p&gt;
+&lt;p&gt;Basically, what happens is that instead of comparing the underlying model content (in this case, profiled UML), the system compares the façades and presents that comparison to the user in its terms.  And changes performed by the user on the merge result are propagated by the façade to the underlying model, to be written out when the user saves the merge result.&lt;/p&gt;
+&lt;p&gt;Check out the video above and get the code in my &lt;a href=&quot;https://github.com/cdamus/emf.compare/&quot;&gt;GitHub fork&lt;/a&gt; of the EMF Compare project, on the &lt;a href=&quot;https://github.com/cdamus/emf.compare/tree/uml-facade&quot;&gt;uml-compare branch&lt;/a&gt;.  Look particularly at the new plug-in and test projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;oeec.facade&lt;/code&gt; — some core façade framework bits&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;oeec.facade.ui&lt;/code&gt; — the user interface for façade provider preferences&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;oeec.uml2.facade&lt;/code&gt; — extensions to support façades for UML profiles&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;oeec.uml2.facade.tests&lt;/code&gt; — some JUnit tests for basic façade mechanics and simple façade-based compare/merge scenarios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Where, of course, &lt;code&gt;oeec&lt;/code&gt; is just a compact substitute for the &lt;code&gt;org.eclipse.emf.compare&lt;/code&gt; namespace.&lt;/p&gt;</description>
+	<pubDate>Tue, 25 Jul 2017 21:08:15 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Follow @EclipseJavaIDE</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5039</guid>
+	<link>https://waynebeaton.wordpress.com/2017/07/25/follow-eclipsejavaide/</link>
+	<description>&lt;p&gt;If you’re new to the Eclipse IDE you’re already a big fan, you’ll find something of value every day by following &lt;a href=&quot;https://twitter.com/EclipseJavaIDE&quot;&gt;@EclipseJavaIDE&lt;/a&gt;.  Frankly, there’s so much good stuff coming out of this account, that it’s hard to pick any favourites. So, I’ve pulled out a couple of recent ones.&lt;/p&gt;
+&lt;p&gt;Menu entries exist to help you complete incomplete thoughts and—of course—&lt;code&gt;CTRL+1&lt;/code&gt; is always there for &lt;em&gt;Quick Fix&lt;/em&gt; or &lt;em&gt;Quick Assist&lt;/em&gt;; but sometimes you just don’t want to take your hands off the keyboard.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Create variables or fields out of an expression with Ctrl+2, L and Ctrl+2, F respectively. Type is inferred for you! &lt;a href=&quot;https://twitter.com/hashtag/EclipseTips?src=hash&quot;&gt;#EclipseTips&lt;/a&gt; &lt;a href=&quot;https://t.co/wZ7HgGzihm&quot;&gt;pic.twitter.com/wZ7HgGzihm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Eclipse Java IDE (@EclipseJavaIDE) &lt;a href=&quot;https://twitter.com/EclipseJavaIDE/status/889797929896226817&quot;&gt;July 25, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Automating tedious operations like generating fields, getters and setters, etc. is something that the Eclipse IDE does well. Converting anonymous classes into &lt;em&gt;lambda expressions&lt;/em&gt;? Easy.&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Let &lt;a href=&quot;https://twitter.com/EclipseJavaIDE&quot;&gt;@EclipseJavaIDE&lt;/a&gt; take care of converting your anonymous classes to lambda expressions. Quite tedious to do manually! &lt;a href=&quot;https://twitter.com/hashtag/EclipseTips?src=hash&quot;&gt;#EclipseTips&lt;/a&gt; &lt;a href=&quot;https://t.co/8vvSVZonkb&quot;&gt;pic.twitter.com/8vvSVZonkb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Eclipse Java IDE (@EclipseJavaIDE) &lt;a href=&quot;https://twitter.com/EclipseJavaIDE/status/888051277233438720&quot;&gt;July 20, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Follow @EclipseJavaIDE to get your daily Eclipse IDE tips and tricks.&lt;/p&gt;
+&lt;p&gt;Download the &lt;a href=&quot;https://www.eclipse.org/downloads/eclipse-packages/&quot;&gt;Eclipse IDE, Oxygen Edition&lt;/a&gt; today.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_728%20x%2090.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5039/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5039/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5039&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 25 Jul 2017 14:52:51 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Newsletter - Summer Issue</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/2q3fxA6JM54/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/2q3fxA6JM54/</link>
+	<description>The latest Eclipse Newsletter is now available. Read it and learn how to try out Java 9 Support for Eclipse Oxygen!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/2q3fxA6JM54&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 25 Jul 2017 14:05:00 +0000</pubDate>
+</item>
+<item>
+	<title>Ctrlflow: Shape Code Recommenders’ Roadmap for 2018!</title>
+	<guid isPermaLink="false">https://blog.ctrlflow.com/?p=228</guid>
+	<link>https://blog.ctrlflow.com/shape-code-recommenders-roadmap-2018/</link>
+	<description>&lt;p&gt;Oxygen has been released a few weeks ago. After taking a short summer break, we are starting to think about future directions for Eclipse Code Recommenders. There are a couple of ideas we’ve mulled over for months already. For this post, I selected two of them because (i) I am very excited about both and (ii) I can’t decide which one to go for first. Thus, I think it’s time to learn what you think about them and help us prioritize… 🙂 Idea #1: Building an AI-powered bug detection The first idea is pretty easy to explain: Bug detection tools like FindBugs offer rule sets for […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://blog.ctrlflow.com/shape-code-recommenders-roadmap-2018/&quot; rel=&quot;nofollow&quot;&gt;Shape Code Recommenders’ Roadmap for 2018!&lt;/a&gt; appeared first on &lt;a href=&quot;https://blog.ctrlflow.com&quot; rel=&quot;nofollow&quot;&gt;Ctrlflow Blog&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Tue, 25 Jul 2017 06:00:50 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus for Real Time is born!</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=759</guid>
+	<link>https://papyrusuml.wordpress.com/2017/07/21/papyrus-for-real-time-is-born/</link>
+	<description>&lt;p&gt;ME-RT (a.k.a., Papyrus for Real Time, a.k.a., Papyrus-RT) was first presented/announced at &lt;a href=&quot;http://www.eclipsecon.org/europe2014/index.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;EclipseCon North America 2014&lt;/a&gt;. In the 1220 days Since then, work my minions have worked tirelessly to finally releasing v1.0 yesterday. Papyrus-RT is now officially out of incubation! This “birth” (Papyrus-RT did break out of the incubation “egg”…) was even announced during the quartery &lt;a href=&quot;https://www.youtube.com/watch?v=3V9jVS9yutY#t=32m06s&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation members meeting&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;You can find all the nitty-gritty details of this release &lt;a href=&quot;https://wiki.eclipse.org/Papyrus-RT/Releases#Papyrus-RT_MVP2.1_.28v1.0.29_-_Better_behave_with_Oxygen.21&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations to all my minions from CEA, EclipseSource, Ericsson, Zeligsoft, and all others who have contributed their time, work, and support for all their great contributions in bringing out a new offering in my growing product line!&lt;/p&gt;
+&lt;h2 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://eclipse.org/papyrus-rt/content/download.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Click here to download your free software!&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;h6 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Hint: it’s &lt;span style=&quot;text-decoration: underline;&quot;&gt;open source&lt;/span&gt;! The whole tool is, was, and it will continue be free &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt;  &lt;/strong&gt;&lt;/h6&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-rt/&quot;&gt;Papyrus-RT&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/papyrus-rt-2/&quot;&gt;papyrus-rt&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/release/&quot;&gt;release&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/759/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/759/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=759&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 21 Jul 2017 17:11:19 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Support for Che – Day 5: Create a plugin and register a file type</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=35027</guid>
+	<link>https://eclipsesource.com/blogs/2017/07/21/emf-support-for-che-day-5/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In this blog series, we share our experiences extending &lt;/span&gt;&lt;a href=&quot;http://eclipse.org/che&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Che&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; to add EMF support. The &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;first post&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; covered our goals. In previous posts, we describe how to &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;add support for code generation&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/03/01/emf-support-for-che-day-3-adding-a-custom-workspace-stack/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;create a custom stack&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, and &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/15/emf-support-for-che-day-4-building-che/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;how to build che&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. It has been quite a while since our last blog, but now we would like to continue with the next step.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Our next major goal is to add a custom editor to Che capable of editing EMF models (Ecore files). To do so, we will first create a custom plugin for Che, so that we do not mix our custom extension code with the core code base of Che. In our first plugin, we will add two extensions to Che: Registering .ecore as a custom file type and registering a custom Editor for this file type. We will describe those first two extensions in detail, as they will provide a good template for later extensions.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Plugins in Che are basically maven modules, that we add to our custom build. Please note that Che does not have a runtime plugin mechanism (see &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/15/emf-support-for-che-day-4-building-che/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;the last post&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for more details).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We could integrate the module manually into the Che build however that would require some manual work. Fortunately, Eclipse Che provides an easy-to-use solution using maven archtypes to generate a simple plugin which can be used as a basis for your own plugin.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The following description is based on the current version (5.13.0) of Eclipse Che. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please execute the following steps:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Clone “git clone&lt;/span&gt;&lt;a href=&quot;https://github.com/eclipse/che-archetypes.git&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;https://github.com/eclipse/che-archetypes.git&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Change into cloned directory&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Checkout Tag 5.13 “git checkout tags/5.13.0”&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Execute the following command&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -DarchetypeRepository=http://maven.codenvycorp.com/content/groups/public/ -DarchetypeGroupId=org.eclipse.che.archetype -DarchetypeArtifactId=plugin-menu-archetype -DarchetypeVersion=5.13.0 -DgroupId=my.plugin -DartifactId=my-sample-plugin -Dversion=0.1-SNAPSHOT -DskipITs -DinteractiveMode=false&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This will generate a sample plugin into the “my-sample-plugin” directory. The sample contains a menu item triggering a “Hello from Che!!!” output. You can browse the plugin directory to learn more about the sample code.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To build the sample plugin with Che switch into “my-sample-plugin” directory and execute: &lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;mvn clean install&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Finally, to run the built Plugin with Che execute the following command in the “my-sample-plugin” directory ($PWD points to the current directory):&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $PWD/mydata:/data -v $PWD/assembly-che/assembly-main/target/eclipse-che-0.1-SNAPSHOT/eclipse-che-0.1-SNAPSHOT:/assembly eclipse/che-cli:5.13.0 start&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now, open your browser at “http://localhost:8080” and create a new workspace. You can see the generated sample menu and action.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35033 size-large&quot; height=&quot;186&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image10-1024x186.png&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now that we have a running plugin, lets come back to our original goal- EMF support in Che. We will use the plugin to add some extensions to Che: a custom file type and a custom editor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Currently, without any extension, Che shows a generic file icon for the “.ecore” extension:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35036 size-full&quot; height=&quot;268&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image13.png&quot; width=&quot;608&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As a next example, we want to register the file extension “.ecore” and display an appropriate icon.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;First we add our icon to the plugin directory “my-sample-plugin/plugins/my-sample-plugin/my-sample-plugin-ide/src/main/resources”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now, we need to load the icon in GWT. To do so, we create a  new interface “IconResource.java” in the “my.plugin.ide” package with the following content:&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;package my.plugin.ide;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.resources.client.ClientBundle;
+import org.vectomatic.dom.svg.ui.SVGResource;
+
+public interface IconResource extends ClientBundle {
+   IconResource INSTANCE = GWT.create(IconResource.class);
+
+   @Source(&quot;icon.svg&quot;)
+   SVGResource icon();
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Since we added a dependency to “org.vectomatic.dom.svg” we need to add this dependency in the “my-sample-plugin-ide/pom.xml” &lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;   org.vectomatic
+   lib-gwt-svg
+   0.5.12
+&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now, we define our custom file type and add it to the generated Gin module. Open “SampleMenuGinModule.java” and add the following code, which is basically a factory for the custom file type. The file type defines the icon as well as the file extension.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Once this is added, we can have the new file type injected in any other class using dependency injection.&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;@Provides
+@Singleton
+@Named(&quot;EcoreFileType&quot;)
+protected FileType provideEcoreFile(IconResource res) {
+   return new FileType(res.icon(), &quot;ecore&quot;);
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Finally, we need to register the file type and register an editor for it. For now, we will just register the default text editor of Che, we will use this code later to register our own custom editor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To do the registration, we create a new java class “MyEditorExtension.java”. Those extension classes are the central place of plugins to interact with Che. This allows it to handle all registrations of things like file types and editors, but also actions, views, etc.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The annotation “@Extension” tells Che, that this class provides extensions. All methods will be executed via dependency injection, allowing you to inject all required parameters and services. In the following example, we inject two Che services, the editor registry and the file type registry, as well as our custom file type. First, we add our custom file type to the file type registry, second, we associate our custom file type with the default text editor.&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;@Extension(title = &quot;Ecore Editor&quot;)
+public class MyEditorExtension {
+   @Inject
+   public void registerForFiletype(final EditorRegistry editorRegistry,
+                                   final FileTypeRegistry fileTypeRegistry,
+                                   final @Named(&quot;EcoreFileType&quot;) FileType ecoreFile,
+                                   final DefaultTextEditorProvider provider
+                                   ){
+       fileTypeRegistry.registerFileType(ecoreFile);
+       editorRegistry.registerDefaultEditor(ecoreFile,provider);
+   }
+}&lt;/pre&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Once we rebuilt Che, all files using the file extension “.ecore” will use the custom icon and will open the default text editor:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35035 size-full&quot; height=&quot;312&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/image5.png&quot; width=&quot;867&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In this blog post, we have created a plugin for Che that allows us to add customizations without mixing our code with the Che code based. So far, the customizations were simple, we added an icon and registered the existing default editor. However, our original goal was to add a custom editor, which is capable of modifying an Ecore file just the way you are used to in the Eclipse Desktop IDE. There are several possible ways to develop such an editor, which we will discuss this in the next part of this blog series.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So stay tuned!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are interested in learning more about the prototype for EMF support, if you want to contribute or sponsor its further development, or if you want support for creating your own extension for Che, please feel free to &lt;/span&gt;&lt;a href=&quot;mailto:munich@eclipsesource.com&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;contact us&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;List of all available days to date:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Day 0&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/14/emf-support-for-che-day-1-run-che-and-import-existing-emf-project/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Day 1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Day 2&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/01/emf-support-for-che-day-3-adding-a-custom-workspace-stack/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Day 3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/15/emf-support-for-che-day-4-building-che/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Day 4&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/07/21/emf-support-for-che-day-5&quot;&gt;Day 5&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Fri, 21 Jul 2017 08:23:58 +0000</pubDate>
+</item>
+<item>
+	<title>Paolo Patierno: A lot of fun with … AMQP, Spark, Kafka, EnMasse, MQTT, Vert.x &amp; IoT</title>
+	<guid isPermaLink="false">http://paolopatierno.wordpress.com/?p=5120</guid>
+	<link>https://paolopatierno.wordpress.com/2017/07/21/a-lot-of-fun-with-amqp-spark-kafka-enmasse-mqtt-vert-x-iot/</link>
+	<description>&lt;p style=&quot;text-align: justify;&quot;&gt;When I say to someone that I work for Red Hat they say me “Ah ! Are you working on Linux ?” … No, no, no and … no ! I’m not a Linux guy, I’m not a fan boy but I’m just a daily user &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;All people know that Red Hat is THE company which provides the best enterprise Linux distribution well known as Red Hat Enterprise Linux (RHEL) but Red Hat is not only Linux today. Its portfolio is huge : the cloud and containers business with the OpenShift effort, the microservices offer with Vert.x, Wildfly Swarm, Spring Boot, the IoT world with the involvement in the main Eclipse Foundation projects.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The objective of this blog is just showing briefly the projects I worked (or I’m working) on since last year when I was hired on March 1st. They are not “my” projects, they are projects I’m involved because the entire team is working on them … collaboration, you know &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;You could be surprised about that but … there is no Linux ! I’m on the messaging &amp;amp; IoT team, so you will see only projects about this stuff &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;AMQP – Apache Spark connector&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;This “little” component is strictly related to the “big” &lt;a href=&quot;https://radanalytics.io/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;radanalytics.io&lt;/a&gt; project which takes the powerful of &lt;a href=&quot;https://spark.apache.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Apache Spark&lt;/a&gt; for analytics (batch, real-time, machine learning, …) running on &lt;a href=&quot;https://www.openshift.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;OpenShift&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Because the messaging team works mainly on projects like &lt;a href=&quot;https://activemq.apache.org/artemis/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;ActiveMQ Artemis&lt;/a&gt; and the &lt;a href=&quot;http://qpid.apache.org/components/dispatch-router/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Qpid Dispatch Router&lt;/a&gt;, where the main protocol is AMQP 1.0, the idea was developing a connector for Spark Streaming in order to ingest data through this protocol so from queues/topics on a broker or through the router in a direct messaging fashion.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;You can find the component &lt;a href=&quot;https://github.com/radanalyticsio/streaming-amqp&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and even an IoT demo &lt;a href=&quot;https://github.com/ppatierno/enmasse-spark-demo&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; which shows how it’s possible to ingest data through AMQP 1.0 using the EnMasse project (see below) and then executing a real time streaming analytics with Spark Streaming, all running on Kubernetes and OpenShift.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;AMQP – Apache Kafka bridge&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;a href=&quot;https://kafka.apache.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Apache Kafka&lt;/a&gt; is one of the best technologies used today for ingesting data (i.e. IoT related scenarios) with an high throughput. Even in this case, the idea was providing a way for having AMQP 1.0 clients and JMS clients pushing messages to Apache Kafka topics without knowing the related custom protocol.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;In this way, if you have such clients because you are already using a broker technology but then you need some specific Kafka features (i.e. re-reading streams), you can just switch the messaging system (from the broker to Kafka) and using the bridge you don’t need to update or modify clients. I showed how this is possible at the Red Hat summit as well and the related demo is available &lt;a href=&quot;https://github.com/ppatierno/amqp-kafka-demo&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;MQTT on EnMasse&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;a href=&quot;http://enmasse.io&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;EnMasse&lt;/a&gt; is an open source messaging platform, with focus on scalability and performance. It can run on your own infrastructure (on premise) or in the cloud, and simplifies the deployment of messaging infrastructure.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;It’s based on other open source projects like ActiveMQ Artemis and Qpid Dispatch Router supporting the AMQP 1.0 protocol natively.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;In order to provide support for the MQTT protocol, we designed how to take &lt;a href=&quot;https://github.com/EnMasseProject/enmasse/blob/master/documentation/mqtt-over-amqp/README.md&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;“MQTT over AMQP”&lt;/a&gt; so having MQTT features on the AMQP protocol. From the design we moved to develop two main components :&lt;/p&gt;
+&lt;ul style=&quot;text-align: justify;&quot;&gt;
+&lt;li&gt;the &lt;a href=&quot;https://github.com/EnMasseProject/enmasse/tree/master/mqtt/mqtt-gateway&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MQTT gateway&lt;/a&gt; which handles connections with remote MQTT clients translating all messages from MQTT to AMQP and vice versa;&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://github.com/EnMasseProject/enmasse/tree/master/mqtt/mqtt-lwt&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MQTT LWT&lt;/a&gt; (Last and Will Testament) service which provides a way for notifying all clients connected to EnMasse that another client is suddenly died sending them its “will message”. The great thing about this service, is that it works with pure AMQP 1.0 clients so bringing the LWT feature on AMQP as well : for this reason the team is thinking to change its name just in AMQP LWT service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;EnMasse is great for IoT scenarios in order to handle a huge number of connections and ingesting a lot of data using AMQP and MQTT as protocols. I used it in all my IoT demos for showing how it’s possible to integrate it with streaming and analytics frameworks. It’s also the main choice as messaging infrastructure in the cloud for the Eclipse Hono project.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;Vert.x and the IoT components&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;a href=&quot;http://vertx.io&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Vert.x&lt;/a&gt; is a great toolkit for developing reactive applications running on a JVM.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The reactive applications manifesto fits really well for IoT scenarios where responsiveness, resiliency, elasticity and the communication driven by messages are the pillars of all the IoT solutions.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Starting to work on the MQTT gateway for EnMasse using Vert.x for that, I decided to develop an &lt;a href=&quot;https://github.com/vert-x3/vertx-mqtt-server&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MQTT server&lt;/a&gt; that was just able to handle communication with remote clients providing an API for interacting with them : this component was used for bridging MQTT to AMQP (in EnMasse) but can be used for any scenario where a sort of protocol translation or integration is needed (i.e. MQTT to Vert.x Event Bus, to Kafka, …). Pay attention, it’s not a full broker !&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The other component was the Apache &lt;a href=&quot;https://github.com/vert-x3/vertx-kafka-client&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Kafka client&lt;/a&gt;, mainly developed by Julien Viet (lead on Vert.x) and then passed to me as maintainer for improving it and adding new features from the first release.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Finally, thanks to the Google Summer of Code, during the last 2 months I have been mentoring a student who is working on developing a Vert.x native &lt;a href=&quot;https://github.com/vert-x3/vertx-mqtt-client&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MQTT client&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;As you can see the Vert.x toolkit is really growing from an IoT perspective other then providing a lot of components useful for developing pure microservices based solutions.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;Eclipse Hono&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;a href=&quot;https://www.eclipse.org/hono/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt; is a project under the big &lt;a href=&quot;https://iot.eclipse.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT&lt;/a&gt; umbrealla in the Eclipse Foundation. It provides a service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;It supports scalable and secure ingestion of large volumes of sensor data by means of its Telemetry API. The Command &amp;amp; Control API allows for sending commands (request messages) to devices and receive a reply to such a command from a device asynchronously in a reliable way.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;This project is mainly developed by Red Hat and Bosch and I gave my support on designing all the API other then implementing the MQTT adapter even in this case using the Vert.x MQTT server component.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Because Eclipse Hono works on top of a messaging infrastructure for allowing messages exchange, the main choice was using ActiveMQ Artemis and the Qpid Dispatch Router even running them using Kubernetes and OpenShift with EnMasse.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;Apache Kafka&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Finally, I was involved to develop a POC named “&lt;a href=&quot;https://github.com/EnMasseProject/barnabas&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;barnabas&lt;/a&gt;” (a messenger character from a Frank Kafka novel :-)) in order to take Apache Kafka running on OpenShift.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Considering the stetaful nature of a project like Kafka, I started when Kubernetes didn’t offer the StatefulSets feature doing something similar by myself. Today, the available deploy is based on StatefulSets and it’s a work in progress on which I’ll continue to work for pushing the POC to the next level.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Apache Kafka is a really great project which has its own use cases in the messaging world; today it’s more powerful thanks to the new Streams API which allows to execute a real time streaming analytics using topics from your cluster and running simple applications. My next step is to move my EnMasse + Spark demo to an EnMasse + Kafka (and streaming) deployment. I’m also giving my support on the Apache Kafka code.&lt;/p&gt;
+&lt;h2 style=&quot;text-align: justify;&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The variety and heterogeneity of all the above projects is giving me a lot of fun in my day by day work even collaborating with different people with different knowledge. I like learning new stuff and the great thing is that … things to learn are endless ! &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/paolopatierno.wordpress.com/5120/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/paolopatierno.wordpress.com/5120/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=paolopatierno.wordpress.com&amp;amp;blog=15467422&amp;amp;post=5120&amp;amp;subd=paolopatierno&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 21 Jul 2017 07:31:23 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: License Certification (Mostly) Just Happens</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=4911</guid>
+	<link>https://waynebeaton.wordpress.com/2017/07/19/license-certification-mostly-just-happens/</link>
+	<description>&lt;p&gt;The &lt;a href=&quot;https://eclipse.org/org/documents/Eclipse_IP_Policy.pdf&quot;&gt;Eclipse Intellectual Property Policy&lt;/a&gt; defines two types of intellectual property (IP) due diligence for third party content. The so-called &lt;em&gt;Type A Due Diligence&lt;/em&gt; is concerned exclusively with license certification; and &lt;em&gt;Type B Due Diligence&lt;/em&gt; is concerned with license certification, provenance checking and a deep dive scan of the content for various anomalies.&lt;/p&gt;
+&lt;p&gt;Regarding the analysis of &lt;em&gt;Type A&lt;/em&gt; third party content, the IP Policy makes this statement:&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;It will be the responsibility of the Eclipse Project to run and analyze the results of a scan tool provided by the EMO, using parameters provided by the EMO, to obtain the terms and conditions under which such Content would be distributed by the Eclipse Foundation, and ensure that such terms are consistent with the Project Licenses. The Eclipse Project will certify that the terms and conditions of its Non-Eclipse Content conform to the then-current licensing guidelines as provided by the EMO. No further approvals will be required from the EMO prior to the Eclipse Project placing the Non-Eclipse Content into the Repository.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In short, it is the project team’s responsibility to run a tool, analyse the results, and certify the content as being consistent with the various conditions. It took us a while to &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=499950&quot;&gt;identify the &lt;em&gt;scan tool&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Eclipse IP Team has been using open source &lt;a href=&quot;https://www.fossology.org/&quot;&gt;Fossology&lt;/a&gt; for a while. While Fossology is a very comprehensive tool that’s great for IP Analysts, our experience suggests that the learning curve is too steep for it to be used by committers. What we wanted to provide was a tool that could generate a simple report (both human and machine readable) containing a manifest and corresponding licensing.&lt;/p&gt;
+&lt;p&gt;We found what we needed in &lt;a href=&quot;https://github.com/nexB/scancode-toolkit&quot;&gt;ScanCode&lt;/a&gt;, which is produced by some old friends at NexB. ScanCode has the ability to generate the manifest and summarize findings in a number of different formats, including HTML, JSON, and &lt;a href=&quot;https://spdx.org/&quot;&gt;SPDX&lt;/a&gt; RDF and Tag/Value. Using ScanCode is pretty easy. In fact, it’s so easy that the Webmaster integrated its use into an &lt;em&gt;Eclipse Genie&lt;/em&gt; script. So… &lt;strong&gt;for a project team to run the tool, all they really need to do is create a CQ&lt;/strong&gt;. The rest just happens automatically.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_5018&quot; style=&quot;width: 551px;&quot;&gt;&lt;img alt=&quot;license-certification-workflow&quot; class=&quot; size-full wp-image-5018 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/07/license-certification-workflow1.png?w=640&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;In cases where the third party content has a single white listed license, committers only need to create the CQ and then add the content to their builds. If Eclipse IP Team review is required, the committer may need to participate in that review.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;To leverage this automatic scan, a project committer creates a &lt;em&gt;Type A&lt;/em&gt; &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-cq&quot;&gt;contribution questionnaire&lt;/a&gt; (CQ) in the usual way and attaches the corresponding source code. The magic happens after the PMC gives their approval: the Eclipse Genie process identifies every Type A third party content CQs that has been approved by the PMC, runs ScanCode on the source code attachments, and then attaches the report directly to the CQ.&lt;/p&gt;
+&lt;p&gt;If a &lt;em&gt;single license&lt;/em&gt; is identified for all files in the third party content, and that license is on our white list (see below), then the CQ is automatically marked &lt;em&gt;license_certified&lt;/em&gt;, its license information is updated, and the CQ is marked resolved. If multiple licenses, blacklisted licenses, or otherwise problematic licenses are detected (i.e. anything other a single white listed license), then the CQ is sent to the Eclipse IP Team for further investigation.&lt;/p&gt;
+&lt;p&gt;When you see something like the following on your CQ, you’re good-to-go.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot from 2017-07-18 15-19-46&quot; class=&quot;  wp-image-4910 aligncenter&quot; height=&quot;387&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/07/screenshot-from-2017-07-18-15-19-46.png?w=489&amp;amp;h=387&quot; width=&quot;489&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;At this point, the content can be used in project builds and included in milestone builds. Once all project CQs are either marked as &lt;em&gt;license_certified&lt;/em&gt; (type A) or &lt;em&gt;approved&lt;/em&gt; (type B), the project can do an official release.&lt;/p&gt;
+&lt;p&gt;I’m really curious to see what sort of hit rate we get on automatic license certification, vs. how many requests will have to be reviewed by the Eclipse IP Team. My hope is that we will get to a point where we have an 80% automatic approval rate; but we don’t have enough data to make a call yet.&lt;/p&gt;
+&lt;p&gt;Our current implementation has the following licenses in the &lt;em&gt;white list&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apache License 2.0&lt;/li&gt;
+&lt;li&gt;Apache License 1.0&lt;/li&gt;
+&lt;li&gt;Apache License 1.1&lt;/li&gt;
+&lt;li&gt;BSD 2 Clause&lt;/li&gt;
+&lt;li&gt;BSD 3 Clause&lt;/li&gt;
+&lt;li&gt;BSD 4 Clause&lt;/li&gt;
+&lt;li&gt;Eclipse Public License 1.0&lt;/li&gt;
+&lt;li&gt;Eclipse Distribution License 1.0&lt;/li&gt;
+&lt;li&gt;MIT License&lt;/li&gt;
+&lt;li&gt;ISC License&lt;/li&gt;
+&lt;li&gt;NTP License&lt;/li&gt;
+&lt;li&gt;OpenSSL License&lt;/li&gt;
+&lt;li&gt;Public Domain&lt;/li&gt;
+&lt;li&gt;SIL OPEN FONT LICENSE&lt;/li&gt;
+&lt;li&gt;W3C Software and Notice License&lt;/li&gt;
+&lt;li&gt;zlib license&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We need to &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=394613&quot;&gt;find a home&lt;/a&gt; for this. This list will grow.&lt;/p&gt;
+&lt;p&gt;We’re using &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=496959&quot;&gt;Bug 496959&lt;/a&gt; to track our work to update our processes and documentation regarding the Eclipse IP Process.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/4911/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/4911/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=4911&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 19 Jul 2017 17:17:37 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools 4.5.0.AM2 for Eclipse Oxygen.0</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.0.am2-for-oxygen.0.html</guid>
+	<link>https://tools.jboss.org/blog/4.5.0.am2-for-oxygen.0.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.5.0.AM2 (Developer Milestone 2) build for Eclipse Oxygen.0.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.0.AM2.html&quot;&gt;JBoss Tools 4.5.0 AM2&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.0.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;openshift-server-and-kubernetes-server-versions-displayed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-server-and-kubernetes-server-versions-displayed&quot;&gt;&lt;/a&gt;OpenShift server and Kubernetes server versions displayed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The OpenShift server and Kubernetes server versions are now displayed in the OpenShift connection properties.
+      This information is retrieved using an un-authenticated request login to the OpenShift cluster is not required.
+      This allow user to verify the OpenShift and Kubernetes level when interacting.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Here is an example based on an OpenShift connection against CDK3:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;openshift k8s versions&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/openshift-k8s-versions.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;if the cluster is not started or accessible, then no values are displayed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;openshift k8s versions1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/openshift-k8s-versions1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;docker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#docker&quot;&gt;&lt;/a&gt;Docker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;new-security-options&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-security-options&quot;&gt;&lt;/a&gt;New Security Options&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Support has been added when launching commands in a Container to specify a security option profile. This can be done in lieu of specifying privileged mode. For example, to run gdbserver, one can specify &quot;seccomp:unprofiled&quot; to allow ptrace commands to be run by the gdb server.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Run Image Wizard has been modified to allow specifying an unconfined seccomp profile to replace the default seccomp profile.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;LinuxToolsUnconfinedOption&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_oxygen0/LinuxToolsUnconfinedOption.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Security options are also now shown in the Properties View.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;LinuxToolsUnconfinedProperty&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_oxygen0/LinuxToolsUnconfinedProperty.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;bean-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#bean-support&quot;&gt;&lt;/a&gt;Bean Support&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We are happy to finally announce support for &lt;strong&gt;Beans&lt;/strong&gt; (Spring / Blueprint).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Using the Route Editor you can now access Spring / Blueprint Beans in your Camel Context through the &lt;strong&gt;Configurations&lt;/strong&gt; tab.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Configurations tab in Editor&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/beansupporteditortab.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the &lt;strong&gt;Configurations&lt;/strong&gt; tab you can see all global configuration elements of your Camel Context. You can &lt;code&gt;Add&lt;/code&gt;, &lt;code&gt;Edit&lt;/code&gt; and &lt;code&gt;Delete&lt;/code&gt; elements using the buttons on the right side.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Configurations tab content&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/beancreated.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;By clicking the &lt;code&gt;Add&lt;/code&gt; or &lt;code&gt;Edit&lt;/code&gt; button a wizard will be openend to guide you on the creation of the Bean.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Bean wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newbeanwizard.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the wizard you can select an existing bean class from your project or create a new bean class. You can also specify constructor arguments and bean properties.
+      Once created you can then modify the properties of that Bean inside the &lt;code&gt;Properties&lt;/code&gt; view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;alt&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/beanproperties.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;freemarker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker&quot;&gt;&lt;/a&gt;Freemarker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;freemarker-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker-component-deprecation&quot;&gt;&lt;/a&gt;Freemarker component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Freemarker component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 19 Jul 2017 11:01:31 +0000</pubDate>
+</item>
+<item>
+	<title>Philip Wenig: Eclipse Hackathon Hamburg – July 2017</title>
+	<guid isPermaLink="false">http://openchrom.wordpress.com/?p=481</guid>
+	<link>https://openchrom.wordpress.com/2017/07/18/eclipse-hackathon-hamburg-july-2017/</link>
+	<description>&lt;p&gt;We tried an experiment yesterday, it was quite successful. Instead of having just a meeting in the evening, we started at 11 am … eventually, it also lasts till the night :-).&lt;br /&gt;
+&lt;a href=&quot;https://wiki.eclipse.org/Hackathon_Hamburg_2017_July&quot; target=&quot;_blank&quot;&gt;https://wiki.eclipse.org/Hackathon_Hamburg_2017_July&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Over the day, we’ve been approx. 20 people. Definitively, we will do it again! Also a big thank to the &lt;strong&gt;University of Hamburg&lt;/strong&gt; and &lt;strong&gt;Prof. Dr. Walid Maalej&lt;/strong&gt; who hosted us:&lt;br /&gt;
+&lt;a href=&quot;https://mast.informatik.uni-hamburg.de&quot; target=&quot;_blank&quot;&gt;https://mast.informatik.uni-hamburg.de &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;And a big thanks to the Eclipse Foundations for Pizza and Beverages!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-1.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-482&quot; height=&quot;190&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-1.jpg?w=640&amp;amp;h=190&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-2.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-483&quot; height=&quot;182&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-2.jpg?w=640&amp;amp;h=182&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In summary, 25 bugs have been fixed:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-3.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-484&quot; height=&quot;769&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-3.jpg?w=640&amp;amp;h=769&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=483165&quot; target=&quot;_blank&quot;&gt;#483165&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=488231&quot; target=&quot;_blank&quot;&gt;#488231&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519709&quot; target=&quot;_blank&quot;&gt;#519709&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=488215&quot; target=&quot;_blank&quot;&gt;#488215&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=493299&quot; target=&quot;_blank&quot;&gt;#493299&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519356&quot; target=&quot;_blank&quot;&gt;#519356&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519519&quot; target=&quot;_blank&quot;&gt;#519519&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519255&quot; target=&quot;_blank&quot;&gt;#519255&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519652&quot; target=&quot;_blank&quot;&gt;#519652&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519768&quot; target=&quot;_blank&quot;&gt;#519768&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519525&quot; target=&quot;_blank&quot;&gt;#519525&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519767&quot; target=&quot;_blank&quot;&gt;#519767&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=501720&quot; target=&quot;_blank&quot;&gt;#501720&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=507881&quot; target=&quot;_blank&quot;&gt;#507881&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519779&quot; target=&quot;_blank&quot;&gt;#519779&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519778&quot; target=&quot;_blank&quot;&gt;#519778&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=326870&quot; target=&quot;_blank&quot;&gt;#326870&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519714&quot; target=&quot;_blank&quot;&gt;#519714&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519765&quot; target=&quot;_blank&quot;&gt;#519765&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=518996&quot; target=&quot;_blank&quot;&gt;#518996&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519783&quot; target=&quot;_blank&quot;&gt;#519783&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=508535&quot; target=&quot;_blank&quot;&gt;#508535&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=239626&quot; target=&quot;_blank&quot;&gt;#239626&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519776&quot; target=&quot;_blank&quot;&gt;#519776&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519786&quot; target=&quot;_blank&quot;&gt;#519786&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I worked on many improvements of the SWTChart extensions as part of the &lt;a href=&quot;https://projects.eclipse.org/projects/science.eavp&quot; target=&quot;_blank&quot;&gt;Eclipse Advanced Visualization Project&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-4.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-485&quot; height=&quot;360&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-4.png?w=640&amp;amp;h=360&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-5.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-486&quot; height=&quot;360&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-5.png?w=640&amp;amp;h=360&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-6.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-large wp-image-487&quot; height=&quot;360&quot; src=&quot;https://openchrom.files.wordpress.com/2017/07/hackathon-07-6.png?w=640&amp;amp;h=360&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/eclipse/eavp/tree/chemclipse/org.eclipse.eavp.service.swtchart&quot; target=&quot;_blank&quot;&gt;https://github.com/eclipse/eavp/tree/chemclipse/org.eclipse.eavp.service.swtchart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Demos:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/eclipse/eavp/tree/chemclipse/org.eclipse.eavp.service.swtchart.demos&quot; target=&quot;_blank&quot;&gt;https://github.com/eclipse/eavp/tree/chemclipse/org.eclipse.eavp.service.swtchart.demos&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;See you at the next Eclipse Hackathon!&lt;/strong&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=openchrom.wordpress.com&amp;amp;blog=25006439&amp;amp;post=481&amp;amp;subd=openchrom&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 18 Jul 2017 08:24:25 +0000</pubDate>
+</item>
+<item>
+	<title>Cedric Brun: You only have a few more hours to submit to EclipseCon Europe!</title>
+	<guid isPermaLink="false">http://cedric.brun.io/eclipse/eclipsecon-europe-2017</guid>
+	<link>http://cedric.brun.io/eclipse/eclipsecon-europe-2017/</link>
+	<description>&lt;p&gt;I’m deeply honored of being part of the &lt;a href=&quot;https://www.eclipsecon.org/europe2017/about-pc&quot;&gt;program committee&lt;/a&gt; again for EclipseCon Europe 2017.&lt;/p&gt;
+
+&lt;p&gt;Each year I’m amazed at this conference, it was one of the first Eclipse event I attend and since then it has always had a strong friendly vibe to it.&lt;/p&gt;
+
+&lt;p&gt;In the last few years it evolved into the main international event for the Eclipse community, attending it should be a no brainer.&lt;/p&gt;
+
+&lt;p&gt;This conference is great because of the content and the people, help us select good content by submitting it!
+By my count we already have more than 170 submissions and the usual &lt;strong&gt;last minute flood&lt;/strong&gt; might start any minute from now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next few hours the call for papers will be closed&lt;/strong&gt;: now is a good time to hit that submit button. Small is beautiful: submit abstracts which are “to the point” are giving clear insight into what content and structure you are proposing. No need for 400 words of context, stick to what makes your submission relevant to EclipseCon and interesting to share.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;submit your talk now !&lt;/a&gt; and see you there!&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/ece-2016-full.jpg&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/ece-2016.jpg&quot; /&gt;&lt;/a&gt;    
+    Memories from EclipseCon 2016
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/eclipse/eclipsecon-europe-2017/&quot;&gt;You only have a few more hours to submit to EclipseCon Europe!&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;CTO @ Obeo&lt;/a&gt; on July 17, 2017.&lt;/p&gt;</description>
+	<pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
+</item>
+<item>
+	<title>Holger Voormann: Eclipse Oxygen Webinars: 6 talks with a total of almost 5 hours</title>
+	<guid isPermaLink="false">http://eclipsehowl.wordpress.com/?p=1263</guid>
+	<link>https://eclipsehowl.wordpress.com/2017/07/17/eclipse-oxygen-webinars-6-talks-with-a-total-of-almost-5-hours/</link>
+	<description>&lt;p&gt;Like &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTzWo4OTOxRisfKNby7dENY&quot;&gt;last year&lt;/a&gt;, also &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;this year&lt;/a&gt; the Eclipse simultaneous release was accompanied by a series of talks in which developers present their new developments (thanks &lt;a href=&quot;https://twitter.com/katvcb&quot;&gt;Kat Hirsch&lt;/a&gt; for hosting it). Here is my summary of these six so-called &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;webinars about Eclipse Oxygen&lt;/a&gt;; the first three are for IDE users, the other three about Eclipse frameworks:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/lakshmip&quot;&gt;Lakshmi P Shanmugam&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;&lt;a href=&quot;https://youtu.be/-ozOwMmn84k?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;What’s New in the Eclipse Platform? (57:07)&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;If you have already seen &lt;a href=&quot;https://youtu.be/Y0-cO9wZj6w&quot;&gt;my 10-minute Oxygen video&lt;/a&gt;, you can &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=33m18s&quot;&gt;skip the first half&lt;/a&gt; on Eclipse Platform and Java development tools (JDT) improvements. If you watch the talk from the beginning, you can skip the part from &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=23m11s&quot;&gt;23:11&lt;/a&gt; and &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=33m18s&quot;&gt;33:18&lt;/a&gt;, where the screen sharing is interrupted and afterwards some improvements are shown again. In the second half, &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=43m19s&quot;&gt;Trace Points&lt;/a&gt;, which are missing in my video, are explained. Also &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=44m41s&quot;&gt;Plug-in Development Environment (PDE)&lt;/a&gt; and the &lt;a href=&quot;https://youtu.be/-ozOwMmn84k?t=49m16s&quot;&gt;API Tooling&lt;/a&gt; improvements are demonstrated. I recommend Java developers to watch at least this and the following video. In addition, you might also watch the three-month old video of the Devoxx talk &lt;a href=&quot;https://youtu.be/94hhzGnzqbw&quot;&gt;&lt;em&gt;Eclipse 4.7 Platform News by Lars Vogel&lt;/em&gt; (23:38)&lt;/a&gt;, which gives a deeper insight into some of the Platform, JDT and PDE improvements.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/marcandsweep&quot;&gt;Marc R. Hoffmann&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;&lt;a href=&quot;https://youtu.be/p_mVa9iNmzk?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;EclEmma – Code Coverage in Practice (48:57)&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;AsEclEmma became an Eclipse project, the Java IDE packages are shipped with built-in Java code coverage analysis now. This webinar gives a general introduction to EclEmma, but also shows how to use the Java Code Coverage feature to &lt;a href=&quot;https://youtu.be/p_mVa9iNmzk?t=14m53s&quot;&gt;find unused code or JAR dependencies&lt;/a&gt;.&lt;br /&gt;
+A nice trick is to &lt;a href=&quot;https://youtu.be/p_mVa9iNmzk?t=17m41s&quot;&gt;find the code of a particular function of an application by differential code coverage&lt;/a&gt;: launch the application in coverage mode, reset already collected coverage data, execute the function and dump the coverage data. The code executed by the function is shown as covered. At the end of the webinar, some tips are given &lt;a href=&quot;https://youtu.be/p_mVa9iNmzk?t=42m45s&quot;&gt;how common pitfalls can be avoided&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kaloyanraev&quot;&gt;Kaloyan Raev&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;a href=&quot;https://youtu.be/t9TXjCw8110?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;&lt;strong&gt;PHP Development Tools (PDT) 5.0 (46:26)&lt;/strong&gt;&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;This webinar is much more detailed and comprehensive than the Eclipse Newsletter article &lt;a href=&quot;https://eclipse.org/community/eclipse_newsletter/2017/june/article2.php&quot;&gt;&lt;em&gt;What’s new in Eclipse PHP Development Tools (PDT) 5.0&lt;/em&gt;&lt;/a&gt;. In contrast to the previous videos, the improvements are not shown in action, but inmany screenshots. PDT 5.0 &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=6m24s&quot;&gt;supports PHP 7.1&lt;/a&gt; and &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=8m8s&quot;&gt;integrates the Composer&lt;/a&gt; (a PHP dependency manager: similar what npm is for node.js or Maven is for Java) as well as &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=16m23s&quot;&gt;PHPUnit&lt;/a&gt;. New in PDT are also functions to &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=28m55s&quot;&gt;organize use statements&lt;/a&gt; (similar to Organize Imports in JDT). It is nice to know that the activity and &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=35m22s&quot;&gt;diversity&lt;/a&gt; with regard to the involved developers and companies is growing. &lt;a href=&quot;https://youtu.be/t9TXjCw8110?t=39m30s&quot;&gt;Maybe in a future version&lt;/a&gt; code completion proposals will come from a PHP language server instead of as before from PDT. An &lt;a href=&quot;https://github.com/felixfbecker/php-language-server&quot;&gt;experimental integration of a PHP language server&lt;/a&gt; implemented in PHP already exists. If you want to know more about general Eclipse integration of language servers, see the next webinar.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/smcela&quot;&gt;Sopot Cela&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/mickaelistria&quot;&gt;Mickael Istria&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;a href=&quot;https://youtu.be/866-xH2Oi4c?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;&lt;strong&gt;Generic Editor and Language Server Protocol (LSP) (53:55)&lt;/strong&gt;&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;At the beginning the new &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=48s&quot;&gt;Generic Editor&lt;/a&gt; is shown. The Generic Editor is extended by the new LSP4E Eclipse project to support the Language Server Protocol (LSP). The term server is somewhat misleading as the most likely use case will be that the server will be installed and run locally or where the files are (see Mickael’s comment below). The &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=19m5s&quot;&gt;explanation of LSP&lt;/a&gt; is followed by the demonstration of two experimental language server integrations, &lt;em&gt;&lt;a href=&quot;https://github.com/mickaelistria/aCute&quot;&gt;aCute&lt;/a&gt; &lt;/em&gt;for &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=35m44s&quot;&gt;C#&lt;/a&gt; and &lt;em&gt;&lt;a href=&quot;https://github.com/mickaelistria/eclipse-bluesky&quot;&gt;BlueSky&lt;/a&gt; &lt;/em&gt;for &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=38m37s&quot;&gt;HTML, CSS, JavaScript and TypeScript&lt;/a&gt; files. Although LSP is only about a year old, &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=40m48s&quot;&gt;LSP support has already been announced for 27 languages&lt;/a&gt;. Up to now &lt;a href=&quot;https://youtu.be/866-xH2Oi4c?t=41m22s&quot;&gt;LSP is limited&lt;/a&gt; to editing files: no debugging support, no refactorings apart from renaming and no possibility to show a type hierarchy and syntax highlighting is done via TextMate grammars. Like EGit and JGit for Git, the LSP support is realized via the two new Eclipse projects LSP4E and LSP4J, so that not-Eclipse-based applications can use the LSP4J framework. In the next webinar one of such applications is shown.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/svenefftinge&quot;&gt;Sven Efftinge&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sponemann&quot;&gt;Miro Spönemann&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;&lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;New in Xtext: Core Framework, LSP, Tracing Code Generators (51:00)&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;The webinar starts with the &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=1m56s&quot;&gt;history of Xtext&lt;/a&gt;, a framework and tools to build and support domain-specific languages. Since Eclipse IDE lost market share, Xtext support has been &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=4m50s&quot;&gt;extended to IntelliJ IDEA&lt;/a&gt; and will be extended to code editors and other IDEs via &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=14m47s&quot;&gt;LSP&lt;/a&gt;. The Xtext language server is shown in action &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=21m13s&quot;&gt;in the Eclipse IDE&lt;/a&gt; as well &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=23m50s&quot;&gt;in Theia&lt;/a&gt;, a cloud and desktop IDE framework implemented in TypeScript. After the demos the new Xtext feature to &lt;a href=&quot;https://youtu.be/5Wr4NeOZ5H4?t=28m&quot;&gt;generate trace code&lt;/a&gt; is explained.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/melaniebats&quot;&gt;Mélanie Bats&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sbegaudeau&quot;&gt;Stéphane Bégaudeau&lt;/a&gt;:&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;&lt;a href=&quot;https://youtu.be/EkLkhuA40zw?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;Eclipse Sirius 5.0, All about UX (32:40)&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;The last webinar is about Sirius. Sirius is for graphical editors what Xtext is for text editors. The new features are especially – as the title suggests – user experience improvements. They are explained by slides and shown in action. For instance, the &lt;a href=&quot;https://youtu.be/EkLkhuA40zw?t=5m30s&quot;&gt;decorator mechanism&lt;/a&gt; has been improved, e. g. the decorator icons on boxes and on images are placed in such a way that they do not accidentally overlap anymore. There is also an &lt;a href=&quot;https://eclipse.org/community/eclipse_newsletter/2017/june/article4.php&quot;&gt;Eclipse Newsletter article about these Sirius user experience improvements&lt;/a&gt;, but it is certainly more interesting to see Sirius in action in the webinar.&lt;/p&gt;
+&lt;p&gt;These were the six Eclipse Oxygen webinars with a total duration of almost five hours, presented by ten people from all over the world. In case this is not enough, check out my &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLnh_8hTD4yvm-suipQ5jwI6GtAR64q3VE&quot;&gt;Recommended Eclipse Videos&lt;/a&gt;&lt;/em&gt; playlist. If you have any recommendation for an Eclipse video, please drop a comment.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/eclipsehowl.wordpress.com/1263/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/eclipsehowl.wordpress.com/1263/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=eclipsehowl.wordpress.com&amp;amp;blog=11064764&amp;amp;post=1263&amp;amp;subd=eclipsehowl&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Sun, 16 Jul 2017 23:03:02 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Pontesegger: EclipseCon Europe - Wouldn't it be cool to be on stage there?</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-9115525800327923631</guid>
+	<link>http://codeandme.blogspot.com/2017/07/eclipsecon-europe-wouldnt-it-be-cool-to.html</link>
+	<description>I remember my first EclipseCon and how impressed I was by the quality of talks and the technical skills those speakers showed. Proposing a talk of my own was totally out of question.&lt;br /&gt;A year later I thought: &quot;proposing a talk does not harm, it will anyhow get rejected.&quot; So I spent 20 minutes on writing the proposal (took me 18 minutes to come up with a fancy title). Some months later I did my first talk at EclipseCon.&lt;br /&gt;&lt;br /&gt;EclipseCon does have a lot of technical talks that require deep knowledge of certain aspects of eclipse. However often the most interesting talks are not even technical. I remember a talk from last year: &lt;a href=&quot;https://www.eclipsecon.org/europe2016/session/hearing-and-feeling-eclipse&quot; target=&quot;_blank&quot;&gt;Hearing and Feeling Eclipse&lt;/a&gt; - a story about how blind people experience and use our beloved IDE. It is also interesting how companies use Eclipse technology, how to overcome typical obstacles or ideas and proposals on how to improve Eclipse.&lt;br /&gt;&lt;br /&gt;Such talks will attract developers and committers and introduce fresh ideas. Besides the audience is great, the spirit is awesome and it is perfect way to get in touch with people that work on similar topics.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://resheim.net/2017/07/eclipsecon-europe-2017-get-your-talk-proposals-in-now.html&quot; target=&quot;_blank&quot;&gt;Torkild wrote about the free tshirts&lt;/a&gt; you get, but he forgot about the beer and the band (which hopefully will also play this year).&lt;br /&gt;&lt;br /&gt;So &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot; target=&quot;_blank&quot;&gt;submit your talk right now&lt;/a&gt;. Its not a contract yet you have to fulfill, its a proposal :)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Fri, 14 Jul 2017 10:26:31 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>Scott Lewis: ECF 3.13.7 Oxygen: Maven and Python OSGi Services</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-2567075781646155036</guid>
+	<link>http://eclipseecf.blogspot.com/2017/07/ecf-3137-oxygen-maven-and-python-osgi.html</link>
+	<description>&lt;a href=&quot;https://www.eclipse.org/ecf/downloads.php&quot; target=&quot;_blank&quot;&gt;ECF 3.13.7&lt;/a&gt; has been released as part of the &lt;a href=&quot;https://projects.eclipse.org/releases/oxygen&quot; target=&quot;_blank&quot;&gt;Oxygen Simultaneous Release&lt;/a&gt;.  ECF's work recently has emphasized it's implementation of &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project#OSGi_Remote_Services&quot; target=&quot;_blank&quot;&gt;OSGi Remote Services&lt;/a&gt;, and the 3.13.7 continues this emphasis.&lt;br /&gt;&lt;br /&gt;Highlights:&lt;br /&gt;&lt;br /&gt;&lt;ol&gt;&lt;li&gt;ECF has &lt;a href=&quot;https://wiki.eclipse.org/Distribution_Providers&quot; target=&quot;_blank&quot;&gt;multiple distribution providers&lt;/a&gt;, and most have been moved to Maven-based builds&lt;/li&gt;&lt;li&gt;Remote Services/RSA is now available via &lt;a href=&quot;https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.eclipse.ecf%22&quot; target=&quot;_blank&quot;&gt;Maven Central&lt;/a&gt;, and the &lt;a href=&quot;https://wiki.eclipse.org/EIG:Install_into_Apache_Karaf&quot; target=&quot;_blank&quot;&gt;Karaf Feature Install&lt;/a&gt; uses Maven install.&lt;/li&gt;&lt;li&gt;A new distribution provider that allows Python code as OSGi Services.   See &lt;a href=&quot;https://wiki.eclipse.org/Tutorial:_Python_for_OSGi_Services&quot; target=&quot;_blank&quot;&gt;this tutorial&lt;/a&gt; for a description.&lt;/li&gt;&lt;li&gt;Many bug fixes and small improvements&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Thu, 13 Jul 2017 01:54:33 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Orion: What’s new in Orion 15.0</title>
+	<guid isPermaLink="false">http://planetorion.org/news/?p=894</guid>
+	<link>http://planetorion.org/news/2017/07/whats-new-in-orion-15-0/</link>
+	<description>&lt;p&gt;After three more months of hard work from committers and our amazing community, we have &lt;a href=&quot;http://planetorion.org/news/2017/06/announcing-orion-15/&quot;&gt;another great release&lt;/a&gt;! This release continued our mission to make Orion as accessible as possible for all developers, included many UX improvements and has a lot of new language tooling features.&lt;/p&gt;
+&lt;h2&gt;Accessibility&lt;/h2&gt;
+&lt;p&gt;We’re continually improving Orion to be the best possible experience for all developers. In Orion 15, we have improved keyboard access, menu navigation and better handling of “splitters”.&lt;/p&gt;
+&lt;h3&gt;Improved tab handling&lt;/h3&gt;
+&lt;p&gt;A substantial amount of work went into making sure that use of the tab key was sensible and properly presented an affordance for its location. Some of the work included:&lt;/p&gt;
+&lt;p&gt;1. Ensure that all locations that can be tabbed to show a visible ‘focus rect’&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_904&quot; style=&quot;width: 310px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/tab-focus-rect.png&quot;&gt;&lt;img alt=&quot;Tab focus rectangle&quot; class=&quot;size-medium wp-image-904&quot; height=&quot;193&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/tab-focus-rect-300x193.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Tab focus rectangle&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;2. Extend the F2 capability for the editor to show an annotation hover to also show (and put the focus on) any available tooltip for the element with the focus, regardless of the page you’re on (i.e. works on the Git and Settings pages as well now. ESC will return focus to the original element.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_905&quot; style=&quot;width: 310px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/f2-focus-rect.png&quot;&gt;&lt;img alt=&quot;F2 focus tab rectangle&quot; class=&quot;size-medium wp-image-905&quot; height=&quot;139&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/f2-focus-rect-300x139.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;F2 focus tab rectangle&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;3. Make sure that all modal dialogs will ‘trap’ the tab key usage and correctly cycle through the dialogs’ elements.&lt;/p&gt;
+&lt;h3&gt;Improved menu navigation&lt;/h3&gt;
+&lt;p&gt;On the Edit page if the focus is on the main menu you can now use the arrow keys to navigate to any item in the whole menu structure.&lt;/p&gt;
+&lt;h3&gt;Improved splitter manipulation&lt;/h3&gt;
+&lt;p&gt;There is a new command Command + Shift + ‘.’ available that will cycle through each splitter on the page, granting it focus. Once focussed you can use the arrow keys to move the splitter, Enter to toggle the splitter’s ‘thumb’ (if any). ESC will return the focus to the original element.&lt;/p&gt;
+&lt;h2&gt;Code Edit Widget&lt;/h2&gt;
+&lt;h3&gt;Override default keybindings&lt;/h3&gt;
+&lt;p&gt;Consumers of the widget now have complete control over the keybindings in use – with improved support to completely override the default bindings the come with Orion.&lt;/p&gt;
+&lt;p&gt;More details can be found on the &lt;a href=&quot;https://wiki.eclipse.org/Orion/How_Tos/Code_Edit#How_to_know_the_reserved_keybindings&quot;&gt;in-depth how-to wiki page&lt;/a&gt; for the widget.&lt;/p&gt;
+&lt;h2&gt;Language Tools&lt;/h2&gt;
+&lt;h3&gt;Docker file support&lt;/h3&gt;
+&lt;p&gt;When working within docker files, Orion 15 now has support for content assist to make things easier. Assist uses the standard &lt;strong&gt;Ctrl+space&lt;/strong&gt; keybinding.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_898&quot; style=&quot;width: 728px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/dockerfile-assist.png&quot;&gt;&lt;img alt=&quot;Dockerfile assist&quot; class=&quot; wp-image-898&quot; height=&quot;225&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/dockerfile-assist-300x94.png&quot; width=&quot;718&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Dockerfile assist&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;Improved content assist&lt;/h3&gt;
+&lt;p&gt;There have been many improvements in the content assist for other languages as well. For example, assist within CSS files got a substantial overhaul and now provides more complete and correct assist for rules and attributes.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_899&quot; style=&quot;width: 496px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/css-assist.png&quot;&gt;&lt;img alt=&quot;CSS assist&quot; class=&quot; wp-image-899&quot; height=&quot;204&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/css-assist-300x126.png&quot; width=&quot;486&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;CSS assist&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;We have also made assist for HTML and JavaScript a bit easier to understand at first glance, by decorating obsolete and deprecated proposals differently than “normal” ones.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_900&quot; style=&quot;width: 504px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/deprecated-js-use.png&quot;&gt;&lt;img alt=&quot;Deprecated JavaScript proposal&quot; class=&quot; wp-image-900&quot; height=&quot;229&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/deprecated-js-use-300x139.png&quot; width=&quot;494&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Deprecated JavaScript proposal&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;.tern-project hover support&lt;/h3&gt;
+&lt;p&gt;While working in your .tern-project file, you can now hover over entries in the file to get additional information and help.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_901&quot; style=&quot;width: 477px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/tern-project-hover.png&quot;&gt;&lt;img alt=&quot;Tern project file hover&quot; class=&quot; wp-image-901&quot; height=&quot;162&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/tern-project-hover-300x104.png&quot; width=&quot;467&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Tern project file hover&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;package.json hover support&lt;/h3&gt;
+&lt;p&gt;While working in your package.json file, you can now hover over entries in the file to get additional information and help.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_902&quot; style=&quot;width: 494px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/package-json-hover.png&quot;&gt;&lt;img alt=&quot;package.json hover&quot; class=&quot; wp-image-902&quot; height=&quot;216&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/package-json-hover-300x134.png&quot; width=&quot;484&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;package.json hover&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;.eslintrc hover support&lt;/h3&gt;
+&lt;p&gt;While working in your eslint configuration file(s), you can now hover over entries in the file to get additional information and help.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_903&quot; style=&quot;width: 521px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/eslint-hover.png&quot;&gt;&lt;img alt=&quot;ESLint hover&quot; class=&quot; wp-image-903&quot; height=&quot;114&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/eslint-hover-300x67.png&quot; width=&quot;511&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;ESLint hover&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The hover support for ESLint configuration entries is also available within your package.json file in the &lt;em&gt;eslintConfig&lt;/em&gt; section. The hover support is not available yet in the *.yml and *.yaml variants of the ESLint configuration files.&lt;/p&gt;
+&lt;h3&gt;Third party Tern plug-ins&lt;/h3&gt;
+&lt;p&gt;Adding a Tern plug-in to Orion that is not part of the codebase has always been challenging. First you would have to modify the JavaScript tools code, rebuild Orion yourself and then deploy it yourself. In Orion 15 though, you can now load a plug-in directly from your workspace or another location.&lt;/p&gt;
+&lt;p&gt;The complete details can be found &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=496655#c8&quot;&gt;on the bug&lt;/a&gt;, but the general scheme is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;you can load a Tern plug-in from a hosted location or the &lt;em&gt;.tern-plugins&lt;/em&gt; folder within your project&lt;/li&gt;
+&lt;li&gt;you plug-in can contribute to all the normal passes and callbacks from Tern&lt;/li&gt;
+&lt;li&gt;your plug-in must be declared via the &lt;em&gt;.tern-project&lt;/em&gt; file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Platform Improvements&lt;/h2&gt;
+&lt;h3&gt;JavaScript project information&lt;/h3&gt;
+&lt;p&gt;If you select a project in the navigator, Orion now has support to show you what the JavaScript tools thinks about the configuration of the project. The new information is shown in the &lt;strong&gt;JavaScript&lt;/strong&gt; section and contains helpful information about what ECMA level is being used to parse, etc. There are also handy links to common configuration files (if they are present in the project).&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_895&quot; style=&quot;width: 469px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/js-project-info.png&quot;&gt;&lt;img alt=&quot;JavaScript project information&quot; class=&quot; wp-image-895&quot; height=&quot;228&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/js-project-info-300x149.png&quot; width=&quot;459&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;JavaScript project information&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;Updated “Hide system files from the navigator ” preferences&lt;/h3&gt;
+&lt;p&gt;Rather than having to type out all of the names of resources you want to be filtered from the explorer views, we have updated the preference to support wildcards like &lt;strong&gt;?&lt;/strong&gt; and &lt;strong&gt;*&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Editor tab support&lt;/h3&gt;
+&lt;p&gt;Finally. After all this time, we have support in Orion for multiple editor tabs! By default Orion still works in the “one editor per browser tab” mode, but you can start using editor tabs by simply turning on the preference in the &lt;strong&gt;General&lt;/strong&gt; prefs section.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_896&quot; style=&quot;width: 480px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/editor-tabs-prefs.png&quot;&gt;&lt;img alt=&quot;Orion editor tabs preference&quot; class=&quot; wp-image-896&quot; height=&quot;72&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/editor-tabs-prefs-300x46.png&quot; width=&quot;470&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Orion editor tabs preference&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Once enabled, you can open multiple files within a single editor, rather than have multiple browser tabs open. Tabs can be closed, dragged, reordered, and switched to using convenient keybindings.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_897&quot; style=&quot;width: 475px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/multi-editor-tabs.png&quot;&gt;&lt;img alt=&quot;Multiple editor tabs&quot; class=&quot; wp-image-897&quot; height=&quot;158&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/07/multi-editor-tabs-300x102.png&quot; width=&quot;465&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Multiple editor tabs&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;Custom Themes&lt;/h3&gt;
+&lt;p&gt;Plugins can now contribute their own themes to style Orion. All of the information related to the new &lt;strong&gt;orion.core.container.themes.provider&lt;/strong&gt; service can be found on the &lt;a href=&quot;https://wiki.eclipse.org/Orion/Documentation/Developer_Guide/Core_client_services#orion.core.container.themes.provider&quot;&gt;API documentation&lt;/a&gt; wiki page.&lt;/p&gt;
+&lt;h3&gt;Multiple workspaces&lt;/h3&gt;
+&lt;p&gt;The Orion platform now has support for multiple workspaces! This allows consumers of Orion to better organize their files by having multiple source repositories spread across multiple workspaces instead of one gigantic workspace filled with many unrelated repositories.&lt;/p&gt;
+&lt;p&gt;By default Orion does not have end-user support to create and manage multiple workspaces, so third party support is required.&lt;/p&gt;
+&lt;h2&gt;Node.js Server&lt;/h2&gt;
+&lt;p&gt;A lot of work went into making the Node.js server more stable and making sure it was feature-complete compared to its Java version.&lt;/p&gt;
+&lt;h3&gt;Git rebase skip support&lt;/h3&gt;
+&lt;p&gt;Support for skipping conflicting commits during rebase has been added to the server.&lt;/p&gt;
+&lt;h3&gt;Git squash support&lt;/h3&gt;
+&lt;p&gt;The ability to squash commits into the index has been added to the server.&lt;/p&gt;
+&lt;h2&gt;Move to Github&lt;/h2&gt;
+&lt;p&gt;As we talked about in a previous post, during 15.0 we moved all of our source to Github. If this is the first time you are hearing about the move, then head &lt;a href=&quot;http://planetorion.org/news/2017/04/orion-moved-to-github/&quot;&gt;over to the post, and give it a read&lt;/a&gt; for all the details about where to find our code and how to contribute.&lt;/p&gt;</description>
+	<pubDate>Wed, 12 Jul 2017 19:32:08 +0000</pubDate>
+</item>
+<item>
+	<title>Torkild Ulvøy Resheim: EclipseCon Europe 2017: Get your talk proposals in now!</title>
+	<guid isPermaLink="false">https://resheim.net/?p=1831</guid>
+	<link>https://resheim.net/2017/07/eclipsecon-europe-2017-get-your-talk-proposals-in-now.html</link>
+	<description>&lt;p&gt;&lt;span class=&quot;wpsdc-drop-cap&quot;&gt;F&lt;/span&gt;or the twelfth year in a row there is an Eclipse conference in Germany this October – I have to admit it’s my favourite conference; friendly faces everywhere, good food, awesome keynotes, great talks, and even a band to dance to during the reception.&lt;/p&gt;
+&lt;p&gt;Again we expect more than 600 attendees in the lovely small town of Ludwigsburg, not far from Stuttgart. In order to fill three days with activities and interesting talks, we need your help. There is still a few days to get your submissions in, as the deadline is the 17th of July. So what we want you to do, is to sit down and type in a short abstract for something you would like to present. Look at the &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;Call for Papers&lt;/a&gt;, to see if your idea can fit into one of the categories. Just go ahead and type away, let the program committee worry about whether or not your proposal is good enough. If your talk is selected, you will not have to pay the entrance fee and will have some leverage with your boss when discussing whether or not you can go. Oh, and you’ll get a nice speakers T-Shirt &lt;img alt=&quot;😄&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.2.1/72x72/1f604.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;div class=&quot;twitter-share&quot;&gt;&lt;a class=&quot;twitter-share-button&quot; href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fresheim.net%2F2017%2F07%2Feclipsecon-europe-2017-get-your-talk-proposals-in-now.html&amp;amp;via=torkildr&amp;amp;related=torkildr%3ATorkild&quot;&gt;Tweet&lt;/a&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 11 Jul 2017 21:19:18 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EclipseCon 2017 – last chance to submit a talk!</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=34828</guid>
+	<link>https://eclipsesource.com/blogs/2017/07/11/eclipsecon-2017-last-chance-to-submit-a-talk/</link>
+	<description>&lt;p&gt;The deadline for submitting to &lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;EclipseCon Europe 2017&lt;/a&gt; is approaching. The last day is Monday, June 17. Please find the submission system &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Don’t miss the chance to give a talk on a great event and share your thoughts with a wonderful audience!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-medium wp-image-34830&quot; height=&quot;168&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/30507843421_ed8eea4b1a_z-300x168.jpg&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Are you a committer? Come and tell us what is new and noteworthy in your project! Are you involved with interesting web technologies or tools? Then choose our revised “Web and Cloud Development” track. Do you use Eclipse as a basis for your own project? Submit your experience in the new category “Build on Eclipse.” Are you a Java expert? Tell us about interesting topics related to Java and/or JDT! Please see &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;here&lt;/a&gt; for a complete list of tracks.&lt;/p&gt;
+&lt;p&gt;Most importantly, &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;do it now&lt;/a&gt;! Otherwise it will be too late!&lt;/p&gt;</description>
+	<pubDate>Tue, 11 Jul 2017 16:24:10 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+package com.warm.game.network.client;
+
+public class TimeClient {
+
+	public void connect(int port, String ip) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.warm.game.network.client;
+
+public class TimeClient {
+
+}

@@ -1,0 +1,41 @@
+package com.warm.game.network;
+
+import java.util.Date;
+
+import com.warm.game.user.UserMessageBuilder;
+import com.warm.game.user.entity.User;
+
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandlerAdapter;
+import io.netty.channel.ChannelHandlerContext;
+
+public class TimeServerHandler extends ChannelHandlerAdapter {
+	private UserMessageBuilder userMessageBuilder;
+	public TimeServerHandler(){
+		userMessageBuilder = new UserMessageBuilder();
+	}
+
+	public void channelRead(ChannelHandlerContext ctx, Object msg) {
+		// 20170727使用ByteBuf接收
+		ByteBuf m = (ByteBuf) msg; // (1)
+		//20170728目前实现只有一个协议的情况－－－（next step : 实现多个协议，可通过一定的规则标识唯一的）
+		try {
+			long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L;
+			System.out.println(new Date(currentTimeMillis));
+			User user = new User();	
+			user.setUserName("zhj");
+			user.setPassword(123);
+			ctx.writeAndFlush(userMessageBuilder.createUserMsg(user));
+		} finally {
+			m.release();
+		}
+	}
+	
+	public void channelReadComplete(ChannelHandlerContext ctx) {
+		ctx.flush();
+	}
+
+	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+		ctx.close();
+	}
+}

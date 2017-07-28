@@ -1,0 +1,5 @@
+option java_package = "com.warm.game.protocol.user";
+option java_outer_classname = "UserMsgProto";
+message UserMsg{
+	
+}
