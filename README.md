@@ -20,3 +20,4 @@ bossChannel.closeFuture().sync();
 2018年7月28日
 step:client一个线程成功与server一个线程通信
 next step:使用protobuf代替byteBuf
+参考信息：protobuf只是定义前后端的数据格式，网络传输层还是使用的byte[]数组的形式
