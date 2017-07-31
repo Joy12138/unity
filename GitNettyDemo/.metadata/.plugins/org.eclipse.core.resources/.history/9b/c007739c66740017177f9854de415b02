@@ -1,0 +1,31 @@
+package com.warm.game.network;
+
+import java.util.Date;
+
+import com.warm.game.protocol.user.UserMsgProto;
+import com.warm.game.user.UserMessageBuilder;
+import com.warm.game.user.entity.User;
+
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelHandlerAdapter;
+import io.netty.channel.ChannelHandlerContext;
+
+public class TimeServerHandler extends ChannelHandlerAdapter {
+	private UserMessageBuilder userMessageBuilder;
+
+	public TimeServerHandler() {
+		userMessageBuilder = new UserMessageBuilder();
+	}
+
+	public void channelRead(final ChannelHandlerContext ctx, Object msg) {
+		UserMsgProto.UserMsg req = (UserMsgProto.UserMsg) msg;
+		System.out.println("Service accept client subscribe req:[" +req.toString()+"]");
+	}
+
+	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+		cause.printStackTrace();
+		ctx.close();
+	}
+}

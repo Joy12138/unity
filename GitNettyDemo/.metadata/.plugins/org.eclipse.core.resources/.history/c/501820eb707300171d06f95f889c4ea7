@@ -1,6 +1,0 @@
-package com.warm.game.user.entity;
-
-public class User {
-	private String userName;
-	private int password; 
-}

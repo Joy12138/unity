@@ -1,0 +1,5 @@
+package com.warm.game.tool;
+
+public class CustomProtobufEncoder {
+
+}

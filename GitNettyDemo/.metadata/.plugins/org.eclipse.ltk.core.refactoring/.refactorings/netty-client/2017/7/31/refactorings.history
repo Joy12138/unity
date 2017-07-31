@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TimeClientHandlerInit.java&apos; to &apos;netty-client/src/main/java/com.warm.game.network.client&apos;&#x0A;- Original project: &apos;netty-client&apos;&#x0A;- Destination element: &apos;netty-client/src/main/java/com.warm.game.network.client&apos;&#x0A;- Original element: &apos;com.warm.game.network.TimeClientHandlerInit.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.warm.game.network.client" element1="/src\/main\/java&lt;com.warm.game.network{TimeClientHandlerInit.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1501414913225" units="1" version="1.0"/>
+</session>

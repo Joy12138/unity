@@ -23,9 +23,23 @@
 <fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.UserMsg.Builder"/>
 <fullyQualifiedTypeName name="com.warm.game.user.UserMessageBuilder"/>
 <fullyQualifiedTypeName name="com.warm.game.user.entity.User"/>
-<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto"/>
-<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.UserMsg"/>
 <fullyQualifiedTypeName name="io.netty.channel.ChannelFuture"/>
 <fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder"/>
 <fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufEncoder"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufDecoder"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.chkLogin.Builder"/>
+<fullyQualifiedTypeName name="com.warm.game.user.LoginBuilder"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.chkLogin"/>
+<fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.ByteToMessageDecoder"/>
+<fullyQualifiedTypeName name="io.netty.handler.codec.MessageToByteEncoder"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.UserMsg"/>
+<fullyQualifiedTypeName name="com.google.protobuf.MessageLite"/>
+<fullyQualifiedTypeName name="com.warm.game.protocol.user.UserMsgProto.chkLoginMsg"/>
+<fullyQualifiedTypeName name="com.warm.game.tool.CustomProtobufDecoder"/>
+<fullyQualifiedTypeName name="com.warm.game.tool.CustomProtobufEncoder"/>
+<fullyQualifiedTypeName name="com.warm.game.network.client.TimeClientHandler"/>
+<fullyQualifiedTypeName name="com.warm.game.network.TimeClientHandlerInit"/>
 </qualifiedTypeNameHistroy>

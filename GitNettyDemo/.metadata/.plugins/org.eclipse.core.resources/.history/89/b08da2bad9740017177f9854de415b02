@@ -1,0 +1,11 @@
+package com.warm.game.user;
+
+import com.warm.game.protocol.user.UserMsgProto;
+
+public class LoginBuilder {
+	public UserMsgProto.chkLogin createLoginMsg(boolean flag) {
+		UserMsgProto.chkLogin.Builder build = UserMsgProto.chkLogin.newBuilder();
+		build.setIsLogin(flag);
+		return build.build();
+	}
+}

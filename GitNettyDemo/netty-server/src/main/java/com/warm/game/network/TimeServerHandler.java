@@ -1,39 +1,26 @@
 package com.warm.game.network;
 
-import java.util.Date;
+import com.warm.game.protocol.user.UserMsgProto;
+import com.warm.game.user.LoginBuilder;
 
-import com.warm.game.user.UserMessageBuilder;
-import com.warm.game.user.entity.User;
-
-import io.netty.buffer.ByteBuf;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
 public class TimeServerHandler extends ChannelHandlerAdapter {
-	private UserMessageBuilder userMessageBuilder;
+	private LoginBuilder loginBuilder;
 
 	public TimeServerHandler() {
-		userMessageBuilder = new UserMessageBuilder();
+		loginBuilder = new LoginBuilder();
 	}
 
 	public void channelRead(final ChannelHandlerContext ctx, Object msg) {
-		// 20170727使用ByteBuf接收
-		ByteBuf m = (ByteBuf) msg; // (1)
-		// 20170728目前实现只有一个协议的情况－－－（next step : 实现多个协议，可通过一定的规则标识唯一的）
-		long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L;
-		System.out.println(new Date(currentTimeMillis));
-		User user = new User();
-		user.setUserName("zhj");
-		user.setPassword(123);
-		final ChannelFuture f = ctx.writeAndFlush(userMessageBuilder.createUserMsg(user));
-		f.addListener(new ChannelFutureListener() {
-			public void operationComplete(ChannelFuture future) {
-				assert f == future;
-				ctx.close();
-			}
-		}); // (4)
+		UserMsgProto.UserMsg req = (UserMsgProto.UserMsg) msg;
+		System.out.println("Service accept client subscribe req:[" +req.toString()+"]");
+		boolean flag = false;
+		if(req.getUserName().equals("zhj")){
+			flag = true;
+		}
+		ctx.writeAndFlush(loginBuilder.createLoginMsg(flag));
 	}
 
 	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {

@@ -1,0 +1,12 @@
+package com.warm.game.user;
+
+import com.warm.game.protocol.user.UserMsgProto;
+import com.warm.game.user.entity.User;
+
+public class UserMessageBuilder {
+	public UserMsgProto.UserMsg createUserMsg(boolean flag){
+		UserMsgProto.UserMsg.Builder userBuilder = UserMsgProto.UserMsg.newBuilder();
+		
+		return userBuilder.build();
+	}
+}

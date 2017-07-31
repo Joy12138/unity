@@ -6,14 +6,159 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>CMake Editor</title>
+    <link>http://marketplace.eclipse.org/content/cmake-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-07-19 15:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-07-29 13:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%2215knots%22&quot;&gt;15knots&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mweber0xe/listings&quot; title=&quot;Martin Weber&quot;&gt;Martin Weber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;CMake Editor adds color coding and syntax completion for CMake files. The plug-in provides:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting for CMake defined variables, User defined Variables, Properties and Reserved Words&lt;/li&gt;
+&lt;li&gt;
+		Preference Panel to set custom syntax highlighting colors./li&amp;gt;&lt;/li&gt;
+&lt;li&gt;
+		Documentation updated to CMake version 2.8.2&lt;/li&gt;
+&lt;li&gt;
+		Support for keystroke code templates to insert often used cmake code&lt;/li&gt;
+&lt;li&gt;
+		Preference Panel to define custom keystroke code templates&lt;/li&gt;
+&lt;li&gt;
+		Keystroke short cuts to comment/uncomment blocks of code&lt;/li&gt;
+&lt;li&gt;
+		Basic hover support to show brief description of command or variable being hovered over.&lt;/li&gt;
+&lt;li&gt;
+		Ability to open any CMakeLists.txt file or .cmake file on the file system, just not in the workspace.&lt;/li&gt;
+&lt;li&gt;
+		Added preference to use either UPPERCASE or lowercase for CMake commands to better integrate with your current CMake files&lt;/li&gt;
+&lt;li&gt;
+		Searchable CMake Help system that allows the CMake user to search any of the supported CMake commands, properties or variables.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://sourceforge.net/projects/cmakeed/&quot; rel=&quot;nofollow&quot;&gt;Project Site&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;
+	Installation trouble?&lt;/h3&gt;
+&lt;p&gt;In You get a &lt;code&gt;javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure&lt;/code&gt;, please check&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/a/38264878&quot; rel=&quot;nofollow&quot;&gt;stack overflow&lt;/a&gt; and/or &lt;a href=&quot;https://github.com/gnuarmeclipse/plug-ins/issues/171#issuecomment-275907612&quot; rel=&quot;nofollow&quot;&gt;github&lt;/a&gt; to resolve.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 19 Jul 2016 19:29:45 +0000</pubDate>
+ <dc:creator>mweber0xe</dc:creator>
+ <guid isPermaLink="false">2983824 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cmake-editor#comments</comments>
+  </item>
+  <item>
+    <title>iSphere for RDi 9.5+</title>
+    <link>http://marketplace.eclipse.org/content/isphere-rdi-95</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/isphere_marketplace.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-10 16:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-07-29 11:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22iSphere%20Project%20Team%22&quot;&gt;iSphere Project Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/traddatz/listings&quot; title=&quot;Thomas Raddatz&quot;&gt;Thomas Raddatz&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;iSphere is an open source plug-in for WDSCi 7.0 and RDi 8.0+. It delivers high quality extensions for WDSC, RDP and RDi to further improve developer productivity.&lt;/p&gt;
+&lt;p&gt;IBM&#039;s current Eclipse based Integrated Development Environment (IDE) is a huge step beyond SEU, but it still lacks features available only on the green screen. That is where the iSphere Project comes into play, filling in those gaps.&lt;/p&gt;
+&lt;p&gt;Feature list:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Binding Directory Editor&lt;/li&gt;
+&lt;li&gt;
+		Data Area Editor&lt;/li&gt;
+&lt;li&gt;
+		User Space Editor&lt;/li&gt;
+&lt;li&gt;
+		Data Queue Viewer&lt;/li&gt;
+&lt;li&gt;
+		Message File Editor&lt;/li&gt;
+&lt;li&gt;
+		Message File Compare Editor&lt;/li&gt;
+&lt;li&gt;
+		Message File Search&lt;/li&gt;
+&lt;li&gt;
+		Source File Search&lt;/li&gt;
+&lt;li&gt;
+		Source Compare/Merge Editor&lt;/li&gt;
+&lt;li&gt;
+		Spooled Files Subsystem&lt;/li&gt;
+&lt;li&gt;
+		Lpex Task Tags&lt;/li&gt;
+&lt;li&gt;
+		Host Object Decorator&lt;/li&gt;
+&lt;li&gt;
+		RSE Filter Manager&lt;/li&gt;
+&lt;li&gt;
+		Message Subsystem and Monitor&lt;/li&gt;
+&lt;li&gt;
+		Job Log Explorer&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;iSphere is an Open Source project that is hosted on &lt;a href=&quot;https://sourceforge.net/projects/isphere/&quot; rel=&quot;nofollow&quot;&gt;Source Forge&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 10 Jan 2017 21:11:59 +0000</pubDate>
+ <dc:creator>traddatz</dc:creator>
+ <guid isPermaLink="false">3248963 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/isphere-rdi-95#comments</comments>
+  </item>
+  <item>
     <title>SpiraTeam Plugin</title>
     <link>http://marketplace.eclipse.org/content/spirateam-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/spira%20icon%20no-bg%2032x32.png&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 11:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-07-27 13:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Inflectra%20Corporation%22&quot;&gt;Inflectra Corporation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sbor/listings&quot; title=&quot;Simon Bor&quot;&gt;Simon Bor&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plug-in integrates with SpiraTeam, an Application Lifecycle Management (ALM) tool. &lt;/p&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/spira%20icon%20no-bg%2032x32.png&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 11:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-07-28 11:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Inflectra%20Corporation%22&quot;&gt;Inflectra Corporation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sbor/listings&quot; title=&quot;Simon Bor&quot;&gt;Simon Bor&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plug-in integrates with SpiraTeam, an Application Lifecycle Management (ALM) tool. &lt;/p&gt;
 &lt;p&gt;This plugin works in conjunction with the built in functionality provided by Mylyn for implementing requirements, completing tasks and fixing incidents. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
      <pubDate>Wed, 26 Jul 2017 15:12:53 +0000</pubDate>
  <dc:creator>sbor</dc:creator>
  <guid isPermaLink="false">3567375 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/spirateam-plugin#comments</comments>
+  </item>
+  <item>
+    <title>ImageJ Plugin</title>
+    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-07-28 04:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
+&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
+&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
+&lt;p&gt;For more information visit:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;New in 1.51p3 (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    Improved the grammar&lt;/li&gt;
+&lt;li&gt;
+		    Added an action to transfer the ImageJ macro recorder text to the selected line in the macro editor (CTRL+SHIFT+R, CMD+SHIFT+R)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Fixed a bug to control dialogs&lt;/li&gt;
+&lt;li&gt;
+		Fixed a Linux code templates bug&lt;/li&gt;
+&lt;li&gt;
+		Added more code completion templates&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
+&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
+&lt;p&gt;The editor has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
+&lt;li&gt;
+		    Toolbar action to execute ImageJ macros&lt;/li&gt;
+&lt;li&gt;
+		    Syntax highlightening&lt;/li&gt;
+&lt;li&gt;
+		    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
+&lt;li&gt;
+		    Code completion (with browser help)&lt;/li&gt;
+&lt;li&gt;
+		    Code templates (add you own templates)&lt;/li&gt;
+&lt;li&gt;
+		    Info popups (text hoover)&lt;/li&gt;
+&lt;li&gt;
+		    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
+&lt;li&gt;
+		    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
+&lt;li&gt;
+		    Code folding&lt;/li&gt;
+&lt;li&gt;
+		    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
+&lt;li&gt;
+		    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
+&lt;li&gt;
+		    Font preferences&lt;/li&gt;
+&lt;li&gt;
+		    Mark occurences (scope independant)&lt;/li&gt;
+&lt;li&gt;
+		    A copy function for this forum&lt;br /&gt;
+		 &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
+&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
+&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
+&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
+ <dc:creator>mmisingnameaoh</dc:creator>
+ <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
   </item>
   <item>
     <title>EGradle</title>
@@ -198,115 +343,6 @@
  <dc:creator>rkluge</dc:creator>
  <guid isPermaLink="false">3234744 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/emoflon#comments</comments>
-  </item>
-  <item>
-    <title>aCute: C# edition in Eclipse IDE (experimental)</title>
-    <link>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide-experimental</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/csharp_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-01-26 10:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%20Developers%22&quot;&gt;Red Hat Developers&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;aCute enables C# application development in the Eclipse IDE.&lt;/p&gt;
-&lt;p&gt;It provides a rich editor with error reporting, hover, content assist, jump to references... (using OmniSharp) and syntax highlighting (using TextMate grammar).&lt;br /&gt;
-	It also integrates various operations of the `dotnet` command-line (New, Run, Test, Publish) as typical Eclipse IDE wizards and workflows.&lt;/p&gt;
-&lt;p&gt;aCute is in the process of becoming an Eclipse.org project: &lt;a href=&quot;https://projects.eclipse.org/proposals/eclipse-acute-c-and-.net-core-development-tools-eclipse-ide&quot; rel=&quot;nofollow&quot;&gt;https://projects.eclipse.org/proposals/eclipse-acute-c-and-.net-core-dev...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 26 Jan 2017 15:22:41 +0000</pubDate>
- <dc:creator>mistria</dc:creator>
- <guid isPermaLink="false">3269902 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/acute-c-edition-eclipse-ide-experimental#comments</comments>
-  </item>
-  <item>
-    <title>ImageJ Plugin</title>
-    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
-&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
-&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
-&lt;p&gt;For more information visit:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Fixed a bug to control dialogs&lt;/li&gt;
-&lt;li&gt;
-		Fixed a Linux code templates bug&lt;/li&gt;
-&lt;li&gt;
-		Added more code completion templates&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
-&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
-&lt;p&gt;The editor has the following features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
-&lt;li&gt;
-		    Toolbar action to execute ImageJ macros&lt;/li&gt;
-&lt;li&gt;
-		    Syntax highlightening&lt;/li&gt;
-&lt;li&gt;
-		    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
-&lt;li&gt;
-		    Code completion (with browser help)&lt;/li&gt;
-&lt;li&gt;
-		    Code templates (add you own templates)&lt;/li&gt;
-&lt;li&gt;
-		    Info popups (text hoover)&lt;/li&gt;
-&lt;li&gt;
-		    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
-&lt;li&gt;
-		    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
-&lt;li&gt;
-		    Code folding&lt;/li&gt;
-&lt;li&gt;
-		    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
-&lt;li&gt;
-		    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
-&lt;li&gt;
-		    Font preferences&lt;/li&gt;
-&lt;li&gt;
-		    Mark occurences (scope independant)&lt;/li&gt;
-&lt;li&gt;
-		    A copy function for this forum&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
-&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
-&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
-&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
- <dc:creator>mmisingnameaoh</dc:creator>
- <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
-  </item>
-  <item>
-    <title>SAP Hybris Commerce Development Tools for Eclipse</title>
-    <link>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/saphybris-logo.png&quot; width=&quot;110&quot; height=&quot;31&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 15:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-07-26 08:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SAP%20Hybris%22&quot;&gt;SAP Hybris&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/bdobbs6r0/listings&quot; title=&quot;Brendan Dobbs&quot;&gt;Brendan Dobbs&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Development toolkit for developing with SAP Hybris Commerce. This plugin is open source and also sponsored by SAP.&lt;/p&gt;
-&lt;p&gt;Features include:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Import platform into workspace&lt;/li&gt;
-&lt;li&gt;
-		Synchronize extensions with the Hybris Commerce Suite platform including synchronizing libraries and classpaths managed in the platform&lt;/li&gt;
-&lt;li&gt;
-		Configure the runtime JVM with optimal settings to run JUnit tests&lt;/li&gt;
-&lt;li&gt;
-		Add the JDBC driver to the classpath (required to be able to run JUnit tests)&lt;/li&gt;
-&lt;li&gt;
-		Actions to build the platform, ensuring projects are refreshed after the platform has generated files&lt;/li&gt;
-&lt;li&gt;
-		Impex editor with type ahead and formatting functionality&lt;/li&gt;
-&lt;li&gt;
-		Create working sets from localextensions.xml&lt;/li&gt;
-&lt;li&gt;
-		Disable unnecessary extension modules&lt;/li&gt;
-&lt;li&gt;
-		Classpath resolution for JUnit integration tests&lt;/li&gt;
-&lt;li&gt;
-		ImpEx importer&lt;/li&gt;
-&lt;li&gt;
-		Optimization of Tomcat startup time&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 25 Jul 2017 19:04:22 +0000</pubDate>
- <dc:creator>bdobbs6r0</dc:creator>
- <guid isPermaLink="false">3565771 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse#comments</comments>
   </item>
   </channel>
 </rss>

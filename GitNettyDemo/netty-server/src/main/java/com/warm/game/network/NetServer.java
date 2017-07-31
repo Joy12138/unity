@@ -16,9 +16,9 @@ public class NetServer {
 			this.workerGroup = new NioEventLoopGroup();
 			ServerBootstrap bootstrap = new ServerBootstrap().group(this.bossGroup,this.workerGroup)
 															 .channel(NioServerSocketChannel.class)
-															 .childHandler(new NetChannelInitializer())
 															 .option(ChannelOption.SO_BACKLOG, 128)
-															 .childOption(ChannelOption.SO_KEEPALIVE, true);
+															 .childOption(ChannelOption.SO_KEEPALIVE, true)
+															 .childHandler(new NetChannelInitializer());
 			//为了安全的退出对这个端口的监听状态
 			this.bossChannel = bootstrap.bind(port).sync().channel();
 			//shut down your server

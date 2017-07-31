@@ -8,6 +8,36 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Kichwa Coders: What about a Common Debug Protocol?</title>
+	<guid isPermaLink="false">http://kichwacoders.com/?p=2807</guid>
+	<link>https://kichwacoders.com/2017/07/28/what-about-a-common-debug-protocol/</link>
+	<description>&lt;blockquote&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;&lt;img alt=&quot;moth-1749439_1920&quot; class=&quot;alignnone size-full wp-image-2847&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/07/moth-1749439_1920.jpg?w=525&quot; /&gt;‘From then on, when anything went wrong with a computer, we said it had bugs in it.’ — Grace Hopper&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As developers, we all know languages and frameworks are emerging and changing at breakneck speed. And the tools just can’t keep up. On top of that, there’s the move to tools in the cloud, which promise the ultimate in developer convenience. While this will be inevitable, the current tools still have a way to go in terms of functionality offered.&lt;/p&gt;
+&lt;p&gt;As a result, momentum is building around solutions that work for multi-language support in multiple environments.  The &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;language server protocol&lt;/a&gt; (LSP) has emerged as the chosen way for various IDEs and editors to keep pace with all the different language changes. For new cloud IDEs like Eclipse Che, it is a vital part of the roadmap, providing an effective way to deal with the sheer scale of the problem. The LSP solves this problem by having a server for each language, with a common protocol that all front ends can use to communicate with it. One of the key ideas of the LSP is that the IDE knows as little as it can, delegating down to the language server to do the specifics.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Even for established IDEs such as Eclipse, LSP has a lot to offer. When Eclipse came on the scene more than 15 years ago it was a massive step forward when it came to sharing common UI parts between multiple languages. But that framework is far too cumbersome for today’s rate of change. The LSP takes things to the next level and makes the split between UI and backend even more absolute. Lots of progress has been made on the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.lsp4e&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;LSP4E&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://projects.eclipse.org/projects/technology.lsp4j&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;LSP4J&lt;/a&gt; projects.&lt;/p&gt;
+&lt;p&gt;LSP is not just for Eclipse projects. Originating from Microsoft, it also forms the basis for language support in VS Code. Just last month there were 27 &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol/wiki/Protocol-Implementations&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;protocol implementations&lt;/a&gt;, today there are 35 and counting. Truly impressive growth.&lt;/p&gt;
+&lt;p&gt;With language support taken care of, it’s time to ask the question about debugging. Again, when Eclipse first emerged it offered a state-of-the-art debugger framework. A common debug interface that separated UI and backend and allowed for implementations in multiple languages: Java, C/C++, Python, etc. But with little investment in recent years it is difficult to see this as being up to the job of being a general framework for the next generation of tools.&lt;/p&gt;
+&lt;p&gt;Similarly to LSP, Microsoft provides a  &lt;a href=&quot;https://code.visualstudio.com/docs/extensions/example-debuggers&quot;&gt;Debug Protocol&lt;/a&gt; with a number of adapters written, many already being used in VS Code.  So far there has not yet been a rush to adopt it in the same way as LSP, but is this the next logical step for tool developers? Especially for nascent platforms such as Eclipse Che, where the debug support is at minimal viable demo levels, and will likely rise up the &lt;a href=&quot;https://github.com/eclipse/che/wiki/Roadmap&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;priority list&lt;/a&gt; soon.&lt;/p&gt;
+&lt;p&gt;Yet the whole area of debugging is pretty substantial. In order to provide rich debug features, tools need to look at supporting a whole range of functionality, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Launching&lt;/li&gt;
+&lt;li&gt;Processes, threads, etc&lt;/li&gt;
+&lt;li&gt;Stack Traces&lt;/li&gt;
+&lt;li&gt;Run Control (step, continue, run to, etc)&lt;/li&gt;
+&lt;li&gt;Breakpoints, watchpoints&lt;/li&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Source Code Lookup&lt;/li&gt;
+&lt;li&gt;I/O, Console support&lt;/li&gt;
+&lt;li&gt;Expressions, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So all of those features. For every language we use please. In every IDE we might want to use, thanks. Oh, and don’t forget to make it all work asynchronously.&lt;/p&gt;
+&lt;p&gt;But hey, do developers still even use richly-featured debuggers? Is it even feasible to have a single protocol or framework cover these for a wide range of languages? The answers to all these may not be so clear at the moment. However as likely as there are &lt;a href=&quot;https://leankit.com/blog/2015/12/how-many-bugs-are-left-the-software-qa-puzzle/&quot;&gt;still bugs&lt;/a&gt; to be found in software, we will still need good quality debuggers and a solution to make them quickly available for multiple languages in multiple tools.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/2807/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/2807/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=2807&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 28 Jul 2017 10:26:47 +0000</pubDate>
+</item>
+<item>
 	<title>Doug Schaefer: Taking the Long Way ‘Round</title>
 	<guid isPermaLink="false">https://cdtdoug.ca/?p=855</guid>
 	<link>https://cdtdoug.ca/2017/07/27/taking-the-long-way-round/</link>
@@ -674,17 +704,6 @@ A nice trick is to &lt;a href=&quot;https://youtu.be/p_mVa9iNmzk?t=17m41s&quot;&
 
 &lt;div class=&quot;twitter-share&quot;&gt;&lt;a class=&quot;twitter-share-button&quot; href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fresheim.net%2F2017%2F07%2Feclipsecon-europe-2017-get-your-talk-proposals-in-now.html&amp;amp;via=torkildr&amp;amp;related=torkildr%3ATorkild&quot;&gt;Tweet&lt;/a&gt;&lt;/div&gt;</description>
 	<pubDate>Tue, 11 Jul 2017 21:19:18 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: EclipseCon 2017 – last chance to submit a talk!</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=34828</guid>
-	<link>https://eclipsesource.com/blogs/2017/07/11/eclipsecon-2017-last-chance-to-submit-a-talk/</link>
-	<description>&lt;p&gt;The deadline for submitting to &lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;EclipseCon Europe 2017&lt;/a&gt; is approaching. The last day is Monday, June 17. Please find the submission system &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Don’t miss the chance to give a talk on a great event and share your thoughts with a wonderful audience!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-medium wp-image-34830&quot; height=&quot;168&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/07/30507843421_ed8eea4b1a_z-300x168.jpg&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Are you a committer? Come and tell us what is new and noteworthy in your project! Are you involved with interesting web technologies or tools? Then choose our revised “Web and Cloud Development” track. Do you use Eclipse as a basis for your own project? Submit your experience in the new category “Build on Eclipse.” Are you a Java expert? Tell us about interesting topics related to Java and/or JDT! Please see &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;here&lt;/a&gt; for a complete list of tracks.&lt;/p&gt;
-&lt;p&gt;Most importantly, &lt;a href=&quot;https://www.eclipsecon.org/europe2017/cfp&quot;&gt;do it now&lt;/a&gt;! Otherwise it will be too late!&lt;/p&gt;</description>
-	<pubDate>Tue, 11 Jul 2017 16:24:10 +0000</pubDate>
 </item>
 
 </channel>

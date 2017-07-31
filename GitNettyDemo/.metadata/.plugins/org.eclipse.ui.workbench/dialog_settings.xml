@@ -5,8 +5,8 @@
 		<item value="28" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="-1" key="dialogHeight"/>
-		<item value="-1" key="dialogWidth"/>
+		<item value="250" key="dialogHeight"/>
+		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -28,5 +28,11 @@
 		<item value="652" key="DIALOG_HEIGHT"/>
 		<item value="-417" key="DIALOG_X_ORIGIN"/>
 		<item value="235" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.maven.ide.eclipse.wizards.Maven2ImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.maven.ide.eclipse"/>
+		</list>
 	</section>
 </section>

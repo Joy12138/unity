@@ -1,0 +1,44 @@
+package com.warm.game.network.client;
+
+import com.warm.game.user.UserMessageBuilder;
+import com.warm.game.user.entity.User;
+
+
+import io.netty.channel.ChannelHandlerAdapter;
+import io.netty.channel.ChannelHandlerContext;
+
+public class TimeClientHandler extends ChannelHandlerAdapter {
+	private UserMessageBuilder userMessageBuilder;
+
+	public TimeClientHandler() {
+		userMessageBuilder = new UserMessageBuilder();
+	}
+
+	@Override
+	public void channelActive( ChannelHandlerContext ctx) throws Exception{ // (1)
+		for (int i = 0; i < 10; i++) {
+			User user = new User();
+			user.setPassword(123);
+			user.setUserName("zhj");
+			ctx.writeAndFlush(userMessageBuilder.createUserMsg(user));
+		}
+		ctx.flush();
+	}
+
+	@Override
+	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+		System.out.println("Receive server response:[" + msg + "]");
+	}
+
+	@Override
+	public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+		System.out.println("Read complete");
+		 ctx.flush();
+	}
+
+	@Override
+	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+		cause.printStackTrace();
+		ctx.close();
+	}
+}

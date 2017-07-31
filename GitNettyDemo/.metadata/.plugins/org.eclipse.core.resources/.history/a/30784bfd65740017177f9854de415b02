@@ -1,0 +1,26 @@
+package com.warm.game.network;
+
+import com.warm.game.protocol.user.UserMsgProto;
+
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelPipeline;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.handler.codec.protobuf.ProtobufDecoder;
+import io.netty.handler.codec.protobuf.ProtobufEncoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
+
+public class NetChannelInitializer extends ChannelInitializer<SocketChannel> {
+
+	@Override
+	protected void initChannel(SocketChannel sc) throws Exception {
+		ChannelPipeline pipeline = sc.pipeline();
+		ch.pipeline().addLast(new ProtobufVarint32FrameDecoder());
+		pipeline.addLast(new ProtobufDecoder(UserMsgProto.UserMsg.getDefaultInstance()));
+		pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
+		pipeline.addLast(new ProtobufEncoder());
+		// 20170727先添加一个线程处理逻辑
+		pipeline.addLast(new TimeServerHandler());
+	}
+
+}

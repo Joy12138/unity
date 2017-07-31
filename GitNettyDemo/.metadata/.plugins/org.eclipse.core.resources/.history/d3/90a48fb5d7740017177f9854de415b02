@@ -1,0 +1,5 @@
+package com.warm.game.protocol.user;
+
+public class LoginBuilder {
+
+}
