@@ -21,3 +21,10 @@ bossChannel.closeFuture().sync();
 step:client一个线程成功与server一个线程通信
 next step:使用protobuf代替byteBuf
 参考信息：protobuf只是定义前后端的数据格式，网络传输层还是使用的byte[]数组的形式
+
+2018年7月31日
+明确进度点：
+1）封装protobuf为通用的Message
+2）信息分发的handler（群发的机制or get/set的注解发送的机制）
+
+
